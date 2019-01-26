@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //组合继承就是将原型链继承和构造函数继承优点组合到一起
+        //自我感觉就是方法利用原型链来继承，属性由构造函数方法继承
+        /**
+         * 优点：
+         *1.不存在引用属性共享问题
+         *2.可传参
+         *3.函数可复用
+         * 缺点
+         * 1.子类原型上有一份多余的父类实例属性，因为父类构造函数被调用了两次，生成了两份，
+         * 而子类实例上的那一份屏蔽了子类原型上的。。。又是内存浪费，比刚才情况好点，不过确实是瑕疵
+         * */
+        function SuperType(name) {
+            this.name = name;
+            this.colors = ["red","blue","green"];
+        }
+        SuperType.prototype.sayName = function () {
+            alert(this.name);
+        };
+        function SubType(name,age) {
+            SuperType.call(this,name);//第二次调用父类构造函数 但又是这种方法的核心之一
+            this.age = age;
+        }
+        SubType.prototype = new SuperType();//第一次调用父类构造函数 但又是这种方法的核心之一
+        SubType.prototype.constructor = SubType;
+        SubType.prototype.sayAge =function () {
+            alert(this.age);
+        };
+
+        var instance1 = new SubType("Nicholas",29);
+        instance1.colors.push("black");
+        alert(instance1.colors);
+        instance1.sayName();
+        instance1.sayAge();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
