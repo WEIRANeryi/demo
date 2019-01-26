@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+           /*
+           * 1.attr(name\pro\key,val\fn)
+           * 作用：获取或者设置属性节点的值
+           *可以传递一个参数也可以传递两个参数
+           * 如果传递一个参数，代表获取属性节点的值
+           * 如果传递两个参数，代表设置属性节点的值
+           *
+           * 注意： 无论找到多少个元素，都只会返回首个被找到的元素的属性节点的值
+           *如果是设置属性节点，找到多少个元素就会设置多少个元素的属性节点
+           * 如果是设置属性节点，如果要设置的属性节点不存在，那么系统会自动新增一个属性节点。
+           *
+           * 2.removeAttr(name)
+           * 删除属性节点
+           * */
+           $("div").attr("class","span11");
+        });
+    </script>
+</head>
+<body>
+<div class="span" name="it666" style="width: 30px; height: 30px; background-color: red;"id="span1"></div>
+<div class="span" name="lnj" style="width: 30px; height: 30px; background-color: red;" id="span2"></div>
+</body>
+</html>

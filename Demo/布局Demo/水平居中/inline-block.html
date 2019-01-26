@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中-2</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            display: inline-block;
+        }
+        /*单独的inline-block并不能让元素居中,它的关键之处在于必须给它的父元素加上一个text-align: center;才可以.*/
+        /*
+        优点:没有较为突出的优点,比起margin来说,只是不必须给div赋宽度
+        缺点:得同时给子元素和父级元素加两条属性才能达到居中的效果,另外就是需要额外处理inline-block的浏览器兼容性。
+        */
+    </style>
+</head>
+<body>
+    <div>我是一个div</div>
+</body>
+</html>

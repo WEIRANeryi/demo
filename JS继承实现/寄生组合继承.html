@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>寄生组合继承</title>
+    <script>
+        function beget(obj){   // 生孩子函数 beget：龙beget龙，凤beget凤。
+            var F = function(){};//定义一个新的构造函数
+            F.prototype = obj;//将新的构造函数的原型指向传进来的父级对象实例
+            return new F();//用新的构造函数创建一个实例并返回
+        }
+        function Super(){
+            // 只在此处声明基本属性和引用属性
+            this.val = 1;
+            this.arr = [1];
+        }
+        //  在此处声明函数
+        Super.prototype.fun1 = function(){};
+        Super.prototype.fun2 = function(){};
+        //Super.prototype.fun3...
+        function Sub(){
+            Super.call(this);   // 核心
+            // ...
+        }
+        var proto = beget(Super.prototype); // 核心  就这样创建了一个全新的而且没有实例即没有原型的一个对象实例
+        proto.constructor = Sub;            // 核心  增强这个实例，
+        Sub.prototype = proto;              // 核心  增强
+        var sub = new Sub();
+        alert(sub.val);
+        alert(sub.arr);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

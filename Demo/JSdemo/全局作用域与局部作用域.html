@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var num = 10;
+    var obj = {
+        num :8,
+        inner: {
+            num : 6,
+            print: function () {
+                console.log("num: " + num + ",this.num: " + this.num);
+            }
+        }
+    };
+    num = 888;
+
+    obj.inner.print();
+    var fn = obj.inner.print;
+    fn();
+    (obj.inner.print)();
+    (obj.inner.print = obj.inner.print)();
+    /**
+     *1.第一个是调用一个对象中的属性方法，所以后边的this.num应指向当前对象的属性。
+     *  之所以前边的不指向6是因为这个6是作为一个属性存在对象中的，而不是一个变量，所以不会指向
+     * 2.第二个将这个函数体赋给了另一个函数，然后在全局中调用了这个函数，所以两个都应指向全局变量。
+     * 3.这就是在第一个的基础上加了一个括号，变成了一个立即执行函数，所以指向不改变，与第一个完全相同。
+     * 4.首先，括号内是一个赋值运算，赋值运算的运算结果也就是整个赋值表达式的结果是被赋的值
+     *所以这一行代码相当于(function(){console.log(this.num)}();)();执行一个匿名函数，这个匿名函数的所有者是window，所以都应指向全局变量。
+     *
+     *
+     * */
+</script>
+</html>

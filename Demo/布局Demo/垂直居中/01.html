@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>垂直居中-1</title>
+    <style>
+        /*这种办法采取了绝对定位，通过top：50%使得整个div框向下移动50，然后在margin调整负值向上移动半个div框，使得整个div垂直居中
+        优点：不需要嵌套任何标签，浏览器的适用性较好
+        缺点：采取了绝对定位，有可能会影响到整体布局。
+        */
+        .out{
+            width: 100%;
+            height: 500px;
+            position: relative;
+            background-color: red;
+        }
+        .in{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            top: 50%;
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="in">我是一个div</div>
+    </div>
+
+</body>
+</html>

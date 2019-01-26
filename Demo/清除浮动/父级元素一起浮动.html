@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动-4</title>
+    <!--第四种方法-->
+    <!--通过让父级元素一起浮动起来，来避免浮动带来的父级元素高度塌陷的问题-->
+    <!--优点：没感觉有什么优点，唯一能想到的就是可以在查到高度塌陷的时候，直接找到父级元素并添加属性即可。-->
+    <style>
+        .main{
+            width: 600px;
+            margin: 0 auto;
+            background-color: black;
+            float: left;
+        }
+        .left{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: green;
+        }
+        .middle{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: yellow;
+        }
+        .right{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>

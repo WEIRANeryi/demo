@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动-1</title>
+    <!--第一种方法，通过直接赋给父元素一个确切的高度，来使得父元素可以得到高度-->
+    <!--优点：代码简单，实现快速。-->
+    <!--缺点:不能通过子元素的高度来撑开父元素,父元素的高度从始至终都是一个死的值.-->
+    <style>
+        .main{
+            width: 600px;
+            /*height: 400px;*/
+            margin: 0 auto;
+            background-color: black;
+        }
+        .left{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: green;
+        }
+        .middle{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: yellow;
+        }
+        .right{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>

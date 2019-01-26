@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动-2</title>
+    <style>
+        /*第二种方法,通过给父级元素一个overflow:hidden属性来解决由于浮动带来的高度塌陷.*/
+        /*自我感觉是清除浮动的最优解,优点在于代码简单,实现简单.能想到的缺点也只有一个属性不好记而已*/
+        .main{
+            width: 600px;
+            /*height: 400px;*/
+            overflow: hidden;
+            margin: 0 auto;
+            background-color: black;
+        }
+        .left{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: green;
+        }
+        .middle{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: yellow;
+        }
+        .right{
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>

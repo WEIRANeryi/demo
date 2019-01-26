@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display和visibility区别</title>
+</head>
+<body>
+    <!--简单来说，具有display:none属性的标签在页面中不会显示，也不会占用任何的位置空间，但是在DOM操作中仍然是可以操作到这个属性标签的。
+        visibility只是将这个标签隐藏，相应的位置空间还是要留出来的，DOM操作也是可以的。
+                      display                                                            visibility
+        1.父元素设置display，无论子元素如何设置都不可见                           父元素设置不可见，子元素设为visibility:visible就可见
+        2.两种方法都无法获取到焦点
+        3.无法响应任何事件，无论是冒泡还是捕获                                    可以在冒泡阶段响应事件
+        4.两种方法都不影响form表单的提交
+
+    -->
+</body>
+</html>

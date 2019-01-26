@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Super(){
+        this.val = 1;
+        this.arr = [1];
+    }
+        function Sub(){
+            // ...
+        }
+        Sub.prototype = new Super();    // 核心 拿父类实例来充当子类原型对象即可
+        // 优点：
+        // 1.简单，易于实现
+        // 缺点：
+        // 1.修改sub1.arr后sub2.arr也变了，因为来自原型对象的引用属性是所有实例共享的。
+        // 可以这样理解：执行sub1.arr.push(2);先对sub1进行属性查找，找遍了实例属性（在本例中没有实例属性），没找到，
+        // 就开始顺着原型链向上找，拿到了sub1的原型对象，一搜身，发现有arr属性。于是给arr末尾插入了2，所以sub2.arr也变了
+        //（相当于改变的就是原型链上的值，原因是sub1本身并没有arr这个属性，所以需要通过原型链向上搜索）
+        // 2.创建子类实例时，无法向父类构造函数传参
+
+        var sub1 = new Sub();
+        var sub2 = new Sub();
+        sub1.val = 2;
+        sub1.arr.push(2);
+        alert(sub1.val);    // 2
+        alert(sub2.val);    // 1
+
+        alert(sub1.arr);    // 1, 2
+        alert(sub2.arr);    // 1, 2
+    </script>
+</head>
+<body>
+
+</body>
+</html>

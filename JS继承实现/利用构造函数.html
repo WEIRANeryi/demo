@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /**
+         * 优点：
+         * 1.解决了子类实例共享父类引用属性的问题
+         * 2.创建子类实例时，可以向父类构造函数传参
+         * 缺点：
+         * 1.无法实现函数复用，每个子类实例都持有一个新的fun函数，太多了就会影响性能，内存爆炸。。
+         * */
+        function SuperType() {
+            this.colors = ["red","blue","green"];
+            this.saycolor = function () {
+                return this.colors[0];
+            }
+        }
+        function SubType() {
+            //在这一行，借用了SuperType构造函数。通过使用call方法（apply也可以）
+            //其实就是在创建新的SubType实例的时候调用了SuperType的构造函数
+            //这样每次创建新的SubType实例的时候都会调用一次SuperType构造函数
+            //真实情况就是将超类型构造函数当作一个普通函数来进行调用，所以这种方法的优点就是可以在继承的时候传参
+            //这种继承的缺点就是方法的重载问题。
+            SuperType.call(this);//精髓
+        }
+
+        var instance1 = new SubType();
+        instance1.colors.push("black");
+        alert(instance1.colors);
+        // console.log(instance1.saycolor());
+        var instance2 = new SubType();
+        alert(instance2.colors);
+        //alert(instance1.saycolor == instance2.saycolor);//弹出flase 表示这两个函数不是一个，所以表示每个子类实例继承来的方法不是一个
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

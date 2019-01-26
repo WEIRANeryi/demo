@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        //1.原生js会等到dom元素和图片加载完成之后再运行
+        //jquery会等到dom元素加载完成但不会等图片加载完
+        // window.onload = function(){
+        //     var img = document.getElementsByTagName("img")[0];
+        //     // console.log(img);
+        //     var width = window.getComputedStyle(img).width;
+        //     console.log("onload",width);
+        // }
+        //  $(document).ready(function () {
+        //      var $img = $("img");
+        //      // console.log($img);
+        //      //上边一行没有加上括号 传入$width的就是一个函数，这样的意思不是调用这个函数 而是将这个函数方法传给$width
+        //      //var $width = $img.width;
+        //      var $width = $img.width();
+        //      console.log("!!!");
+        //      console.log("ready",$width);
+        //  });
+        //2。原生js如果编写了多个入口函数 后边的就会覆盖前边的
+        //jquery编写多个入口函数的话，后边的不会覆盖前边的
+        // window.onload = function (ev) {
+        //     alert("hello lnj1");
+        // };
+        // window.onload = function (ev) {
+        //     alert("hello lnj2");
+        // };
+        $(document).ready(function () {
+            alert("hello lnj1");
+        });
+        $(document).ready(function () {
+            alert("hello lnj2");
+        });
+    </script>
+</head>
+<body>
+<img src="http://img62.ddimg.cn/2018/12/7/201812071937395509.jpg">
+</body>
+</html>

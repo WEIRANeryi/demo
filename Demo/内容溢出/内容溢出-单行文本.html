@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容溢出</title>
+    <style>
+        .text{
+            width: 200px;
+            background-color: green;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <!--问题：内容溢出，div框中图片或者文本内容过大导致溢出-->
+    <!--单行文本内容溢出解决-->
+    <!--利用text-overflow: ellipsis 属性配合overflow: hidden和white-space: nowrap;;来将多余的文本内容以省略号形式显示-->
+    <!--white-space: nowrap;
+        white-space属性指定元素内的空白怎样处理，nowrap属性值代表着文本不换行，在同一行上继续显示，直到遇到br标签为止。
+    -->
+    <!--text-overflow属性值有clip（修剪文本，溢出文本不显示，是默认的属性值）、ellipsis（多余文本以省略号显示）和string（以指定的字符串来代替被修剪的文本，不常用）-->
+    <!--简单了解下overflow:hidden-->
+    <!--溢出元素内容区的内容会被修剪，并且溢出内容不可见。-->
+    <div class="text">
+        文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出
+    </div>
+</body>
+</html>

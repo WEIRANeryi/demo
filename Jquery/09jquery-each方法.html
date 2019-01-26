@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        var arr = [1,3,5,7,9];
+        var obj = {
+            0:1,
+            1:3,
+            2:5,
+            3:7,
+            5:9,
+            length:5
+        };
+        /*
+        * 第一个参数是value 指遍历到的元素
+        * 第二个参数是index 指便利到元素的索引
+        * 注意 原生的forEach只能遍历数组，并不能遍历伪数组
+        * */
+        arr.forEach(function (value,index) {
+            // console.log(index,value);
+        });
+        //报错 说明forEach并不能遍历伪数组
+        // obj.forEach(function (value,index) {
+        //     console.log(index,value);
+        // });
+        //1.利用jQuery的each静态方法遍历数组
+        /*
+        * 第一个参数 当前遍历到的索引
+        * 第二个参数 当前遍历到的元素
+        * 注意点 jquery的each方法是可以遍历伪数组
+        * */
+        $.each(arr,function (index,value) {
+            // console.log(index,value);
+        });
+        $.each(obj,function (index,value) {
+            console.log(index,value);
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块级元素和行级元素</title>
+    <style>
+        /*img标签较为特殊，它的display默认值是inline，但是又可以设置宽高，img的默认宽高就是照图片的宽高。
+        从行为上看，img虽然是一个行内元素，但是又具有inline-block的一些行为，所以可以直接使用margin 0 auto来居中
+        div则不可以，div标签的display默认值是block，它是一个块级元素，默认的宽就是父级元素的百分百。
+        所以如果不事先给div设置固定高度，或者更改它的display属性值，则使用margin 0 auo是不可以实现居中效果的。
+        虽然还是有点不理解，但总结下来就是，块级元素居中就使用margin：0 auto；方法来居中，但是这个块级元素必须有一个固定的高度。
+        行内联元素就给父元素text-aligin：center；方法来居中。
+        */
+        body{
+            text-align: center;
+        }
+        div{
+            /*width: 100px;*/
+            height: 100px;
+            display: inline-block;
+            border: 1px solid red;
+            background-color: green;
+            margin: 0 auto;
+        }
+        img{
+            /*display: inline-block;*/
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>我是一个div</div>
+    <img src="../img1.jpg" id="gg" alt="">
+    <div>我是一个div</div>
+</body>
+</html>

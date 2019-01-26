@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中-4</title>
+    <style>
+        /*哪个元素发生了高度塌陷，就给哪个元素一个伪元素，并且给伪元素下边所述的属性，即可清除浮动带来的高度塌陷
+        这种方法较为简单，并且可以将这个css属性代码放在common.css中，哪个元素需要清除浮动就直接增加一个clear-f的class即可
+        */
+        .middle{
+            width: 300px;
+            /*height: 200px;*/
+            border: 2px solid red;
+        }
+        .fl{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            float: left;
+        }
+        .clear-f:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="middle clear-f">
+        <div class="fl"></div>
+    </div>
+</body>
+</html>

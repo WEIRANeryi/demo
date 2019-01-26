@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        /*标准盒模型由margin border padding content组成*/
+        /*margin为外边距 也就是距离父级元素或者说外边框的距离，指的是和父级元素的content部分的距离。*/
+        /*margin用来控制自身与父级元素的content内容的距离*/
+        /*padding用来控制自身的content内容和边框之间的距离*/
+        /**
+        *margin--在同级元素（非父子关系）之间应用
+        *1.水平方向的外边距合并： 两个水平方向的盒子相遇，那么最终两者之间的距离为左边盒子的右外边距和右边盒子的左外边距之和。
+        *2.竖直方向的外边距合并：两个竖直方向的盒子相遇时，其竖直方向的距离等于上方盒子的下外边距和下方盒子的上外边距中较大的一个。
+        *margin--在父元素和子元素之间应用：如上方所说，分情况仔细计算即可，注意是与父级元素的content距离。
+        *ie盒模型和标准模型的区别就在于ie模型的width=content+padding+border而标准模型的width仅仅是content的with
+        */
+        *{padding:0; margin:0; border:0;}
+        .father{
+            width: 500px;
+            height: 500px;
+            padding:100px;
+            background: pink;
+            /*border: 1px solid black;*/
+        }
+        .son{
+            width: 100px;
+            height: 100px;
+            background: white;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son">宽度为100px，margin-left为100px。</div>
+    </div>
+</body>
+</html>

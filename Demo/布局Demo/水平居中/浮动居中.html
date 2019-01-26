@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中-3</title>
+    <style>
+        .main{
+            width: 800px;
+            height: 200px;
+            background-color: red;
+            margin: 0 auto;
+            position: relative;
+        }
+        .middle{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: absolute;
+            left: 350px;
+        }
+    </style>
+    <!--通过绝对定位,然后调试上右下左的距离来使得元素居中-->
+    <!--优点:想不到有什么优点,缺点一大堆,主要就是采用了绝对定位,使得整体布局错乱-->
+</head>
+<body>
+    <div class="main">
+        <div class="middle">
+          我是一个DIV
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        /*
+        *所有jquery函数必须放在$(function(){})中，如果不放在这里边，会在页面加载之前就调用
+        *  1.什么是jQuery对象
+        *  jQuery对象是一个伪数组
+        *  2.什么是伪数组
+        *  有0到length-1个属性，并且有length属性
+        * */
+        $(function () {
+            var $div = $("div");
+            console.log($div);
+        });
+
+    </script>
+</head>
+<body>
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+</body>
+</html>

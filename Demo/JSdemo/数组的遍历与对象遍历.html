@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    * 1.遍历最基础的方法就是用for循环去遍历。
+    * 2.第二个方法就是for in 注意的是遍历的是数组的索引，要调取数组的数据还需用索引去寻值。
+    * 3.数组独有的遍历方法是for each,要注意的是这是一个方法，要用数组实例去调用这个方法。
+    * for each参数是一个函数，这个参数函数可以将每次遍历的值存放在value中，并且作为参数函数的参数用来输出。
+    * 之所以数组要用自己独有的for each而不用for in，原因是for in 会把数组原型上的一些其他属性或方法也遍历出来。
+    *   就有可能得到我们并不想要的结果。
+    */
+    //第一种方法
+    var arr = [1,2,3,4,5,8];
+    for (var i =0;i<arr.length;i++){
+        console.log(arr[i]);
+    }
+
+    // 第二种方法 for each
+    arr.forEach(function (value,index) {
+        console.log(value,index);
+    });
+
+    //第三种方法，for in 可能会出现问题
+    arr.name = "数组";
+    for (item in arr){
+        console.log(arr[item]);
+    }
+</script>
+</html>

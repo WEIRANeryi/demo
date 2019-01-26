@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <title>双飞翼</title>
+    <style>
+        /*
+        *圣杯布局
+        *注意：需要外边有个父级div包住这三个div，并且中间div必须放在第一个，因为首先要对中间进行渲染
+        *1.给三个div浮动向左，并且左右两边固定上宽度，中间宽度100% 这样会显示第一行是middle 左右排在第二行
+        *2.先让左边div浮动到第一行最左边，需要向左margin-left:-100%;
+        *3.再让右边div浮动到第一行最右边，需要向右margin-left:-200px;
+        *4.这时候虽然三个div都显示在同一行，但是左右两边会挡住中间div部分内容
+        *  与圣杯布局采取的将左右div相对定位然后调整左右距离离开中间div所不同的是，双飞翼在中间div下又取了一个div
+        *  然后给新div argin:0 200px 0 100px; 使得实际内容div离开左右div
+        */
+        *{
+            height: 200px;
+        }
+        .container{
+            /*padding:0 200px 0 100px;*/
+        }
+        .left{
+            background-color: red;
+            float: left;
+            width: 100px;
+            margin-left: -100%;
+        }
+        .right{
+            background-color: black;
+            float: left;
+            width: 200px;
+            margin-left: -200px;
+        }
+        .middle{
+            background-color: green;
+            width: 100%;
+            float: left;
+        }
+        .content{
+            margin:0 200px 0 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="middle">
+        <div class="content"></div>
+    </div>
+
+    <div class="left"></div>
+
+    <div class="right"></div>
+</div>
+
+</body>
+</html>

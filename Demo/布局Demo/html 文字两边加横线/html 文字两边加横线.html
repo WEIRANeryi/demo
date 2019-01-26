@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html 文字两边加横线-2</title>
+    <style>
+        /*这个方法完全在取巧,它在文字左右两边各添加了一个横线,然后给这两个横线调整位置,保证横线能够出现在文字中间.*/
+        .exple {
+           height: 50px;
+           line-height: 60px;
+           text-align: center;
+         }
+        .line {
+           display: inline-block;
+           width: 250px;
+         /*横线长度*/
+           border-top: 1px solid  #ccc ;
+           margin-bottom:5px;
+             /*位置//横线移动*/
+           margin-left:10px;
+           height: 1px;
+         /*//横线厚度*/
+           background:red;
+         /*//颜色*/
+
+        }
+    .exple .txt {
+       color: #686868;
+       /*vertical-align: middle;*/
+    }
+    </style>
+
+</head>
+<body>
+    <div class="exple">
+    <span class="line"></span>
+    <span class="txt">文字在中间</span>
+    <span class="line"></span>
+    </div>
+</body>
+</html>

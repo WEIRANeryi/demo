@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容溢出</title>
+    <style>
+        div{
+            width: 180px;
+            background-color: green;
+            /*overflow:hidden属性不只是单行文本溢出用得到，多行依然有用，毕竟这条属性本身的作用就是将溢出内容设为不可见。*/
+            overflow: hidden;
+            /*必须结合的属性 ，将对象作为弹性伸缩盒子模型显示。*/
+            display: -webkit-box;
+            /*必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。*/
+            -webkit-box-orient: vertical;
+            /*用来限制在一个块元素显示的文本的行数。设为几行，文本就显示几行*/
+            -webkit-line-clamp: 3;
+
+        }
+    </style>
+</head>
+<body>
+    <!--问题：内容溢出，div框中图片或者文本内容过大导致溢出-->
+    <!--和单行文本内容溢出思路一样，首先就要写一个overflow:hidden;来将溢出内容设为不可见。-->
+    <!--其次将这个元素设为一个弹性伸缩盒子模型，用到了display: -webkit-box;属性-->
+    <!--然后利用-webkit-box-orient: vertical;设置下这个伸缩盒子内的内容的排列方式，是从上到下，从左到右还是从中两开花。-->
+    <!--最后考虑下要显示几行，用-webkit-line-clamp: n;来控制，n是几，就显示几行，假如n=1，则与单行文本溢出显示效果一样。-->
+    <div>
+        文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出文本内容溢出
+    </div>
+</body>
+</html>

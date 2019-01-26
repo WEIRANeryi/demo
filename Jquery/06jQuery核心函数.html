@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // $(); 就代表着要调用jQuery的核心函数
+        //1.接收一个函数
+        $(function () {
+           // alert("hello1");
+           //2.接收一个字符串
+        //2.1接收一个字符串选择器
+            //返回一个jQuery对象，对象中保存了找到的dom元素
+            var $box1 = $(".box1");
+            var $box2 = $("#box2");
+            console.log($box1);
+            console.log($box2);
+        //2.2接收一个代码片段
+            //返回一个jQuery对象，对象中保存了创建的dom元素
+            var $p = $("<p id='p1'>我是p段落</p>");
+            console.log($p);
+            $box1.append($p);
+        //3.接收一个dom元素
+            //这个dom元素会被包装成一个jquery对象返回
+            var span = document.getElementsByTagName("span")[0];
+            console.log(span);
+            var $span = $(span);
+            console.log(span);
+            var $span1 = $("#span1");
+            console.log($span1);
+        });
+
+    </script>
+</head>
+<body>
+<div class="box1"></div>
+<div id="box2"></div>
+<span id="span1">我是span</span>
+</body>
+</html>

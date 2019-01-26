@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery提交表单</title>
+    <!--<style>-->
+        <!--&lt;!&ndash;第一种方法 采取将左右两边分别浮动 中间距离浏览器边框距离控制自适应&ndash;&gt;-->
+        <!--*{-->
+            <!--height: 200px;-->
+            <!--font-size: 32px;-->
+        <!--}-->
+        <!--.left{-->
+            <!--width: 100px;-->
+            <!--position: absolute;-->
+            <!--left: 0px;-->
+            <!--background-color: black;-->
+        <!--}-->
+        <!--.middle{-->
+            <!--margin-left: 92px;-->
+            <!--margin-right: 192px;-->
+            <!--background-color: red;-->
+        <!--}-->
+        <!--.right{-->
+            <!--width: 200px;-->
+            <!--position: absolute;-->
+            <!--right: 0px;-->
+            <!--background-color: green;-->
+        <!--}-->
+    <!--</style>-->
+    <!--<style>-->
+        <!--/*-->
+        <!--*第二种方法 利用绝对定位和left、right将两边固定住，再通过margin调整中间与浏览器边框的距离-->
+        <!--*与第一种方法一样，必须将中间div放在后边，否则右边的div会由于中间div是行内元素而被挤到下一行-->
+        <!--*/-->
+        <!--*{-->
+            <!--height: 200px;-->
+        <!--}-->
+        <!--.left{-->
+            <!--position: absolute;-->
+            <!--width: 100px;-->
+            <!--background-color: black;-->
+            <!--left: 0;-->
+        <!--}-->
+        <!--.right{-->
+            <!--position: absolute;-->
+            <!--width: 200px;-->
+            <!--background-color: green;-->
+            <!--right: 0;-->
+        <!--}-->
+        <!--.middle{-->
+            <!--margin-left: 92px;-->
+            <!--margin-right: 192px;-->
+            <!--background-color: red;-->
+        <!--}-->
+    <!--</style>-->
+</head>
+<body>
+<div class="left"></div>
+
+<div class="right"></div>
+
+<div class="middle"></div>
+</body>
+</html>

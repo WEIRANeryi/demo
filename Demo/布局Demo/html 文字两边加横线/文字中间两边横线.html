@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文字中间横线-1</title>
+    <style>
+        /*采取绝对定位，横线脱离标准文档流，然后调整横线位置将横线定位到文字中间。
+        再给横线z-index设为负值，保证中间部位将文字能够显示出来
+        但是有个问题，假如要给页面一个背景颜色的话，只能给body而不能给这两个div的父元素，给父元素的话横线就看不到。
+        给body一个背景颜色的话，才能看到这条横线。
+        解决上边的只能给body写背景颜色的问题:
+            使用z-index属性必须指定position,并且只能用于具有relative,absolute和fixed,但是默认的static不能.
+            这样给文字框增加一个position属性,然后将文字框的z-index设的比横线的值大一点即可实现效果.
+        */
+        body{
+            /*background-color: #dee;*/
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .test{
+            width: 100%;
+            height: 200px;
+            position: relative;
+            /*z-index: 0;*/
+            background-color: #dee;
+        }
+        .top{
+            width: 100%;
+            height: 1px;
+            background-color: green;
+            position: absolute;
+            z-index: 1;
+            top: 50px;
+        }
+        .main{
+            width: 500px;
+            margin: 0 auto;
+            height: 100px;
+            position: relative;
+            background-color: #dee;
+            /*border: 1px solid red;*/
+            text-align: center;
+            line-height: 100px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="test">
+        <div class="top">
+
+        </div>
+        <div class="main">
+            <h3>lalalala</h3>
+        </div>
+    </div>
+
+</body>
+</html>
