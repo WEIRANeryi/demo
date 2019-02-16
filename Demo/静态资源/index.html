@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="style/base.css" type="text/css" />
+    <link rel="stylesheet" href="style/global.css" type="text/css" />
+    <title>LD Studio 留言板---很靠谱的留言板</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--  公共头部 -->
+        <div class="header">
+            <h1><a href="">LD Stuido留言板</a></h1>
+            <h2>很靠谱的留言板</h2>
+            <img src="images/hanoi.jpg" alt="" />
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">关于</a></li>
+            </ul>
+        </div>
+
+
+        <div class="main">
+            <div class="content">
+
+
+                <% for(var i=0; i<data.length; i++){ %>
+                    <div class="msg">
+                        <h2><%= data[i].title %></h2>
+                        <p>发表于<span href=""><%= data[i].time %></span> 由 <span href=""><%= data[i].author %></span>发表</p>
+                        <p><%= data[i].content %></p>
+                    </div>
+                <% } %>
+
+
+
+                <!-- 动态的读取留言内容，然后输出 -->
+               
+                
+                <div class="msg_form">
+                    <h2>发表留言</h2>
+                    <form action="/save" method="POST">
+                        <ul>
+                            <li>
+                                <label for="">标题：</label>
+                            </li>
+                            <li>
+                                <input type="text" name="title" class="txt" />
+                            </li>
+                            <li>
+                                <label for="">作者：</label>
+                            </li>
+                            <li>
+                                <input type="text" name="author" class="txt" />
+                            </li>
+                            <li>
+                                <label for="">内容：</label>
+                            </li>
+                            <li>
+                                <textarea name="content" id="" cols="70" rows="5"></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="提 交" name="btn" class="btn" />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="sidebar">
+                <h2>最新留言</h2>
+                <ul>
+                    <% for(var i=0;i<data.length;i++) {%>
+                        <li><a href=""><%= data[i].title %></a></li>
+                    <% }%>
+                </ul>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <!-- 公共底部 -->
+        <div class="footer">
+            <p><a href="">LD Studio</a> &copy; 2009-2012 版权所有</p>
+        </div>
+    </div>
+</body>
+
+</html>

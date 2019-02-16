@@ -1,0 +1,38 @@
+﻿body{background:#E2E2E2; font:300 14px/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif; color:#373737;}
+.wrapper{width:1000px; margin:2em auto; background:#fff;}
+.header{padding-top:25px;}
+.header h1{font-weight:bold; font-size:30px; color:#111; margin-left:15px; }
+.header h1 a{text-decoration:none; color:#222;}
+.header h2{color:#7A7A7A; font-size:14px;margin:0 0 25px 15px; }
+.header ul{height:42px; background:#252525; padding-left:15px;}
+.header ul li{float:left; line-height:42px; margin-left:15px; font-size:13px;}
+.header  li a{color:#fff; text-decoration:none;}
+
+.main{clear:both;}
+.content{width:680px; float:left; display:inline; padding:35px 0 0 30px;}
+.sidebar{width:230px;float:right; display:inline; }
+.msg{border-bottom:1px solid #ddd; margin:0 10px 20px 1px; padding-bottom:8px;}
+.content h2{color:#222; font-weight:bold; font-size:18px; }
+.content p{line-height:30px;margin:5px 0;}
+.content p span{color: red;}
+.msg a{color:#1982D1; font-weight:bold;font-size:12px; text-decoration:none;}
+.msg a:hover{text-decoration:underline;}
+
+.content ul{list-style:square inside none; margin:0;}
+.coneten li{line-height:23px;color:#999;font-size:13px;}
+.content h3{font-weight:bold; color:#c00; margin:15px 0 7px;}
+.content ol{list-style:decimal inside none;}
+.msg_form{margin:35px 0 0 0px;}
+.msg_form ul{list-style:none; margin-left:-13px;}
+.msg_form ul li{padding:2px 0;}
+.msg_form h2{color:#222; font-weight:bold;font-size:18px;}
+.msg_form .txt{width:300px; border:1px solid #ccc; padding:5px 0 4px 5px;}
+.msg_form textarea{width:600px; height:200px; border:1px solid #ccc; }
+.msg_form .btn{width:60px;height:30px; margin-top:10px; font-size:13px; border:none; background:#333; color:#fff; font-weight:bolder; cursor:pointer;}
+.sidebar h2{color:#222; font-weight:bold; margin-top:40px;}
+.sidebar ul{list-style:square inside none; margin:0;}
+.sidebar li{line-height:23px;color:#777;font-size:12px;}
+.sidebar li a{color:#06c; text-decoration:none; font-weight:bold; font-size:12px;}
+.sidebar li a:hover{text-decoration:underline;}
+.footer{clear:both;background:#f9f9f9;border-top:1px solid #dddddd;color:#666666;padding:1em 0.5em; text-align:center; margin-top:20px; font-weight:bold;font-size:12px;}
+
