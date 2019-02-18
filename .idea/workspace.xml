@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,9 +34,18 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/JSdemo/JS继承实现/原型链实现继承.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/将列表倒序.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -62,6 +70,7 @@
         <option value="$PROJECT_DIR$/Demo/vim使用命令大全.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/逻辑与和逻辑或的短路性.js" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" />
+        <option value="$PROJECT_DIR$/Demo/将列表倒序.html" />
       </list>
     </option>
   </component>
@@ -91,19 +100,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="JS继承实现" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +110,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -166,11 +162,12 @@
       <workItem from="1548858654662" duration="15000" />
       <workItem from="1549717058153" duration="675000" />
       <workItem from="1550027100013" duration="10000" />
+      <workItem from="1550480889709" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8781000" />
+    <option name="totallyTimeSpent" value="9024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -236,6 +233,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/JS继承实现/原型链实现继承.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/将列表倒序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

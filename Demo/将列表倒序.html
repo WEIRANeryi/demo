@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <ul>
+        <li>我是内容1</li>
+        <li>我是内容2</li>
+        <li>我是内容3</li>
+        <li>我是内容4</li>
+        <li>我是内容5</li>
+    </ul>
+</body>
+<script>
+    /*
+    *  难点在于：sort根据参数函数的返回值进行排序，如果返回值大于0，就是正序排序，如果是小于0，就是倒序排序
+    *  步骤：
+    *   1.先将页面中的元素节点ul和li取到手，这里采用了querySelectorAll和querySelector
+    *   2.然后将类数组对象通过Array.from方法转换为数组对象
+    *   3.然后这个数组对象调用sort进行排序
+    *   4.然后遍历这个数组将里边存放的每一条li加到ul中去，从而在页面上就能看到这个列表以倒序形式显示
+    * */
+    var lis = document.querySelectorAll("li");
+    var ul = document.querySelector("ul");
+
+    var listArr = Array.from(lis);
+    // console.log(listArr);
+    var arr = listArr.sort((prev,curr,index) => {
+        prevText = prev.innerHTML;
+        currText = curr.innerHTML;
+        return currText[currText.length-1] - prevText[prevText.length-1]
+    });
+    console.log(arr);
+    arr.forEach(item =>{
+       ul.appendChild(item);
+    });
+</script>
+</html>
