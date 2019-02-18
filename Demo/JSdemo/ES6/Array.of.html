@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+//es6之前创建数组一共有两种方法,一个字面量定义,一个是利用Array构造函数.
+//    但是Array构造函数有一个问题,当我们参数只有一个的时候,他会识别为数组的长度,来生成一个这么长的空数组
+    let arr1 = Array(5)
+    console.log(arr1);
+//    所以es6有了一个新的Array.of来创建数组来避免这种情况的发生,Array.of的参数无论有多少个,都会被作为数组的一项存入数组中.
+    let arr2 = Array.of(1,2,4,5,6,8);
+    let arr3 = Array.of(5);
+    console.log(arr2);
+    console.log(arr3);
+</script>
+</html>

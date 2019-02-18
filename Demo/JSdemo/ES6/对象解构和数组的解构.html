@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象解构和数组解构</title>
+</head>
+<body>
+
+</body>
+<script>
+// ES6允许按照一定的模式，从对象中提取值，对变量进行赋值，这被称为解构.
+const Tom = {
+    name: "Tom Cat",
+    age: 18,
+    family: {
+        mother: "Tom ma",
+        father: "Tom fa",
+        brother: "Tom bro"
+    }
+}
+//如果是es5以及之前版本的js来实现一个变量存储对象属性的值的话，需要以下步骤
+// const name = Tom.name;
+// const age = Tom.age;
+//而到了es6，有了对象解构，我们可以直接采取以下方法
+// const {name,age} = Tom;
+//在对象解构的过程中，一共做了两件事。1.声明一个变量。2.为这个变量赋值
+//解构时的默认值,只有当后边对象属性值为undefined的时候才会触发默认值，其余时候不会起作用
+// let {name,age = 81} = Tom;
+// console.log(age);
+//数组也有解构，只要位置对应就可以进行解构，经常用来交换两个变量的值
+// let a = 1;
+// let b = 2;
+// [a,b] = [b,a];
+// console.log(a,b);
+
+</script>
+</html>

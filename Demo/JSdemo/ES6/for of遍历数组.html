@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+// 在es6之前一共有三种方法可以用来遍历数组，for，forEach，for in
+//    for循环在遍历的时候，必须要取到相对应的索引值，然后通过索引值来取到对应值
+//    forEach中途不能退出遍历，一直到遍历完整个数组
+//    for in遍历数组的时候，会把数组内存放的所有可枚举的项都遍历一遍，就可能取出我们不想要的值
+//    所以在es6中，有了新的遍历for of来解决以上问题
+var arr = ["one", "two", 'three', 'four'];
+for(let item of arr){
+    console.log(item);
+    if(item == "two"){
+        break;
+    }
+}
+//for of中并没有索引，它遍历的原理是需要一个Symbol.iterator属性，这个属性存放的是一个函数.
+// 这个函数的返回值是一个对象，对象中有一个next函数,函数返回值是一个对象，对象存放了一个done属性和一个value属性。
+//done用来判断是否遍历完毕，如果遍历完毕则是true，没有则是false，value中存放着当前遍历项。
+//es6中就利用Symbol.iterator这个接口来进行数组以及类数组的遍历,只要有这个属性,都可以利用for of来进行遍历
+    console.log(arr[Symbol.iterator]());
+    let iterator = arr[Symbol.iterator]();
+console.log(iterator.next());
+
+</script>
+</html>

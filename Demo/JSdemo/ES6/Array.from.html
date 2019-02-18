@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>我是内容1</li>
+        <li>我是内容2</li>
+        <li>我是内容3</li>
+        <li>我是内容4</li>
+    </ul>
+</body>
+<script>
+//js中有数组,也有类数组对象,具有length属性,但是构造器不是Array的对象就被称为类数组对象
+//    有的时候我们需要使用数组的方法来操作这些类数组对象,但是有的方法并不支持,所以就出现了将类数组对象转为数组对象的Array.form方法
+    let ul = document.querySelector("ul");
+    let list = document.querySelectorAll("li");
+    console.log(list);
+//    这时候,这个list就是一个类数组对象.
+    list = Array.from(list);
+    console.log(list);
+//    我们通过调用Array.from方法将这个类数组对象转为了数组对象,这时候这个对象就可以利用数组对象的方法来进行一些操作.
+</script>
+</html>

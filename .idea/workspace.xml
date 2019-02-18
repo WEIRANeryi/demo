@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,34 +20,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js">
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="553">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/JS继承实现/利用构造函数.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/JS继承实现/组合继承.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/JS继承实现/原型链实现继承.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/将列表倒序.html">
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="450">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -53,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,6 +78,10 @@
         <option value="$PROJECT_DIR$/Demo/JSdemo/逻辑与和逻辑或的短路性.js" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" />
         <option value="$PROJECT_DIR$/Demo/将列表倒序.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html" />
       </list>
     </option>
   </component>
@@ -100,6 +111,19 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ES6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -132,7 +156,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.利用对象的不重复性判断每个数字出现的次数.js">
+  <component name="RunManager" selected="JavaScript Debug.对象解构和数组的解构.html">
+    <configuration name="对象解构和数组的解构.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo/Demo/JSdemo/ES6/对象解构和数组的解构.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="利用对象的不重复性判断每个数字出现的次数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Demo/JSdemo/数组方法/数组去重/利用对象的不重复性判断每个数字出现的次数.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -141,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.对象解构和数组的解构.html" />
         <item itemvalue="Node.js.利用对象的不重复性判断每个数字出现的次数.js" />
         <item itemvalue="Node.js.text.js" />
       </list>
@@ -162,12 +190,12 @@
       <workItem from="1548858654662" duration="15000" />
       <workItem from="1549717058153" duration="675000" />
       <workItem from="1550027100013" duration="10000" />
-      <workItem from="1550480889709" duration="243000" />
+      <workItem from="1550480889709" duration="3182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9024000" />
+    <option name="totallyTimeSpent" value="11963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -236,8 +264,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/将列表倒序.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="228">
           <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/变量声明.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
