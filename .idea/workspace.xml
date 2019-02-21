@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/async await.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/generator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/set和map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="364">
               <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -36,31 +39,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="603">
               <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://G:/day16 es6第二天/代码/19proxy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://G:/day16 es6第二天/代码/18精细化设置对象的属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,7 +71,6 @@
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/generator.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/async/await.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/async await.html" />
@@ -101,6 +78,7 @@
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/set和map.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" />
       </list>
     </option>
   </component>
@@ -221,15 +199,15 @@
       <workItem from="1550480889709" duration="3438000" />
       <workItem from="1550494045377" duration="2355000" />
       <workItem from="1550546763254" duration="1968000" />
-      <workItem from="1550718491382" duration="15651000" />
+      <workItem from="1550718491382" duration="18431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32193000" />
+    <option name="totallyTimeSpent" value="34973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.15521796" />
@@ -355,18 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/day16 es6第二天/代码/20vue体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/async/await.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -405,10 +371,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html">
+    <entry file="file://G:/day16 es6第二天/代码/18精细化设置对象的属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="175">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/day16 es6第二天/代码/20vue体验.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122" />
+      </provider>
+    </entry>
+    <entry file="file://G:/day16 es6第二天/代码/19proxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -419,23 +402,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/day16 es6第二天/代码/18精细化设置对象的属性.html">
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="364">
+          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html">
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="475">
+          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/day16 es6第二天/代码/19proxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522" />
       </provider>
     </entry>
   </component>
