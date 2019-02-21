@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    * es6中新增加了一个set数据类型，类似于数组，但是不允许重复值。所以一般用来数组的去重
+    * 之前数组去重有两种方法：1.利用对象属性的不重复性 2.indexof
+    * 在es6直接可以用set来进行数组的去重，之后在通过Array.from或者展开运算符还原成数组即可
+    * */
+    let arr = [2,4,5,1,2,3,4];
+    let arr1 = [];
+    let obj = {};
+    // arr.forEach((item,value) => {
+    //     if (!obj[item]){
+    //         obj[item] = 1;
+    //         arr1.push(item);
+    //     }
+    // });
+    arr.forEach((item,value) => {
+        if (arr1.indexOf(item) == -1){
+            arr1.push(item);
+        }
+    });
+    console.log(arr1);
+
+    let set = new Set(arr);
+    // console.log([...set]);
+    console.log(Array.from(set));
+    /*
+    * 还有一个weakSet，用来存放对象，也是不允许重复值，但是他判断是否重复并不是看属性值是否相同，而是判断栈区地址是否相同。
+    * */
+    let obj2 = {
+        name: 1
+    };
+    let obj3 = {
+        name: 1
+    };
+    let weaks= new WeakSet([obj2,obj3]);
+    console.log(weaks);//这时候存放的是两个值，是因为虽然两个对象的属性名和属性值都相同，但是栈区地址并不相同。。
+    let obj4 = obj2;
+    let weaks1 = new WeakSet([obj2,obj4]);
+    console.log(weaks1);//这时候weaks1里存放的只有一个值，是因为两个对象的栈区地址是相同的。
+
+    /*
+    *
+    * */
+</script>
+</html>

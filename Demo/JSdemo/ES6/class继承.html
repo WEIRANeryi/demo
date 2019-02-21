@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    * 在es6之前继承都是采用构造器函数继承，然后用apply和call更改当前this值。
+    * 这里apply和call的区别在于，apply剩余参数要写在一个数组中，而call则不用。
+    * */
+    // function Person(name,id) {
+    //     this.name = name;
+    //     this.id = id;
+    // }
+    //
+    // function Teacher(name,id,age) {
+    //     Person.call(this,name,id);
+    //     // Person.apply(this,[name,id]);
+    //     this.age = age;
+    // }
+    //
+    // let teacher1 = new Teacher("大司马",13092519999999,25);
+    // console.log(teacher1);
+    /*
+    * 而es6新增了类的概念，通过class关键字可以定义类。
+    * 注意：1.定义的时候不要加小括号 2.在类中声明方法的时候，千万不要给该方法加上function关键字 3.方法之间不要用逗号分隔，否则会报错
+    * 其实类实质上就是一个函数，他自身指向的就是构造器函数。这一点可以通过原型的构造器判断。
+    * 但是类和函数声明有本质的区别：1.不存在函数的提升。 2.函数可以直接调用，而类只能通过new关键字来调用(这里就有点类似与构造函数)3.this指向新生成的对象
+    *
+    * */
+    class Person{
+        constructor(name,id){
+            this.name = name;
+            this.id = id;
+        }
+    }
+    console.log(typeof (Person));//说明类的实质就是一个函数
+    console.log(Person === Person.prototype.constructor);//说明类本身指向构造器函数
+    /*
+    * 类的继承必须利用extends关键字去继承，具体写法如下
+    * 在es6之前，无法去继承原生的构造器函数，而通过类我们可以继承这些原生构造器函数。
+    * */
+
+    class Teacher extends Person{
+        constructor(age){
+            super();
+            this.age = age;
+        }
+    }
+    class Arr1 extends Array{
+        constructor(){
+            super();
+        }
+    }
+    let arr1 = new Arr1();
+    console.log(arr1);
+</script>
+</html>

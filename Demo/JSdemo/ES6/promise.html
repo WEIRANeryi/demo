@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    *  在es6中，我们使用promise来控制异步操作，当异步操作成功之后，进行.then方法，异步操作失败之后进行.catch方法
+    *  promise是一个对象，我们用Promise构造器创建promise对象，对象接收一个函数，函数有resolve和reject两个参数
+    *  函数内存放着异步操作代码，如果异步操作成功就进行resolve语句，将数据传输出去，然后.then方法接收传出去的数据进行操作
+    *  如果异步操作失败就进行reject语句，将错误传出去，然后.catch方法接受传出去的错误进行操作。
+    *
+    *  promise对象只有三种状态，且不受外界影响，无法对promise状态的值进行改变。
+    *  1.pending：进行中 2.fulfilled：已成功 3.rejected：已失败
+    *  状态一旦从pending改变就不会在改变。
+    *
+    *  有了promise对象，我们就可以更好的处理异步操作，而不再像之前那样的嵌套异步操作。
+    *
+    *  需要注意的是，创建promise对象和.then .catch方法都是同步操作。只是在promise回调函数中存放着异步操作，然后通过回调函数的参数来处理这个回调函数成功与否之后的操作
+    *
+    *
+    * */
+    let promise1 = new  Promise(function (resolve, reject) {
+        setTimeout(() =>{
+            console.log("这是一个异步操作");
+            resolve("异步操作成功");
+        },1000)
+    });
+    promise1.then((res) => {
+        console.log(res);
+    }).catch((err) => {
+        console.log(err);
+    });
+    /*
+    * promise上有两个方法，一个promise.all 用来处理当所有的promise都转入成功状态之后进行的操作
+    * 还有一个Promise.race()，但是race接收最快的promise请求，而且无论是成功还是失败，都只接收最快的primise请求。
+    * .all有一个参数数组，用来存放每个异步事件resolve过来的数据，而且可以利用数组解构，将每一个传进来的东西单独赋值给某一个变量
+    * */
+
+    let promise11 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("第一件事完成了");
+            resolve("第一件异步操作");
+        },1000)
+    });
+
+    let promise12 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("第二件事完成了");
+            resolve("第二件异步操作");
+        },2000);
+    });
+
+    let promise13 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("第三件事完成了");
+            resolve("第三件异步操作");
+        },3000);
+    });
+
+    Promise.all([promise11,promise12,promise13]).then((arr) => {
+        // console.log(arr);
+        console.log("所有的请求都处理完毕");
+    });
+
+    Promise.race([promise11,promise12,promise13]).then(() => {
+        console.log("最快的请求处理完毕");
+    })
+    /*
+    * 面试题：下面程序正确输出：1，3，5，2，4
+    * 首先处理同步操作，而定义promise对象也是一个同步操作，所以里边代码如果不是异步操作的话也是正常输出，
+    * 所以应该首先输出1，3，5，其次两个定时器都是立即触发，加入时间队列，先进先出，所以输出2，4.
+    * */
+    console.log("1");
+    setTimeout(() => {
+        console.log("2");
+    });
+    let promise2 = new Promise((resolve, reject) => {
+        console.log("3");
+        setTimeout(() => {
+            resolve();
+        })
+    });
+    promise2.then((res) => {
+        console.log("4");
+    });
+    console.log("5");
+</script>
+</html>

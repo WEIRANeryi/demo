@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    * es6中有一个新出的generator生成器，一共有三个作用：1.中断程序 2.传参 3. 返回值
+    * 具体写法：function和函数名之间有一个*，函数体内部用yield来中断程序
+    * generator得到的是一个Iterato实例，并不会自己运行，只有调用Iterato的next()方法，或者调用for of来遍历这个实例。
+    * generator函数每次运行的时候，如果碰到了yield，就会把yield后边的值返回，然后停止下来。下次在执行itrator的next方法的时候，就会在上一次停下来的地方重新开始执行。
+    * 本意是要用来处理异步函数，但是由于缺点较为严重，所以在es7中新出了async/await来处理异步
+    * */
+    function* fn1() {
+        console.log("1");
+        yield console.log("2");
+        yield console.log("3");
+        yield console.log("4");
+    };
+    let iterator = fn1();
+    // for (value of iterator){
+    //     console.log(value);
+    // }
+</script>
+</html>

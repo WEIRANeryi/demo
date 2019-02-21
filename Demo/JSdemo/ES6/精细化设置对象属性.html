@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let obj1= {
+        name : "王力宏",
+        sex : "男人"
+    }
+
+    Object.defineProperty(obj1,"sex",{
+        configurable:false,//该属性是否可删除
+        enumerable:false,//该属性是否可枚举
+        value: "男人",
+
+    })
+</script>
+</html>

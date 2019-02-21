@@ -36,7 +36,8 @@
 * */
 
 /*
-* 绑定的this值
+* 绑定的this值，指向父级作用域，需要通过上下文来确定
+*
 * 普通函数
 *var boyi = {
     name: "tom",
@@ -69,5 +70,5 @@ boyi.printFood();
 //tom 爱吃 烧鸡
 *普通函数里边的this.name之所以是undefined，未被打印出来的原因是，这个输出是在一个匿名函数中的，而匿名函数的调用者又属于window，
 * 所以this值默认的指向window，在window下没有找到name属性，所以返回undefined。
-* 而箭头函数的this在声明时就已经确定是只想父作用域。
+* 而箭头函数的this在声明时就已经确定是指向父作用域。
 * */

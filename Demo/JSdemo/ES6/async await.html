@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*
+    * 用法：async作为关键字放在函数前面，用于表示这个函数是一个异步函数，然后定义一个异步函数。
+    * async函数的返回值有点特殊，无论函数里边写的return的是什么，async函数的实际返回值总是一个promise对象。
+    * 若在 async 函数中 return 了一个值 x, 不管 x 值是什么类型, async 函数的实际返回值总是 Promise.resolve(x);
+    * await本身后边可以跟任何值，但是为了处理异步，后边经常跟上一个可以返回promise对象，然后在async函数运行的时候，
+    * 碰到await就会暂停等待await的返回值，也就是等待一个promise对象，然后在执行之后的await
+    * 注意：1.async用来申明里面包裹的内容可以进行同步的方式执行，await则是进行执行顺序控制，每次执行一个await，程序都会暂停等待await返回值，然后再执行之后的await。
+    *       2.await后面调用的函数需要返回一个promise，另外这个函数是一个普通的函数即可，而不是generator。
+    *       3.await只能用在async函数之中，用在普通函数中会报错。
+    *       4.await命令后面的 Promise 对象，运行结果可能是 rejected，所以最好把 await 命令放在 try...catch 代码块中。
+    * 其实，async / await的用法和co差不多，await和yield都是表示暂停，外面包裹一层async 或者 co来表示里面的代码可以采用同步的方式进行处理。
+    * 不过async / await里面的await后面跟着的函数不需要额外处理，co是需要将它写成一个generator函数。
+    * */
+    async function fn1() {
+        console.log("我在异步函数内");
+        return "hello world";
+    }
+    fn1();
+    console.log("我在异步函数外");
+    const promise = () => {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("这是一个异步函数");
+                resolve("异步函数成功运行");
+            },1000)
+        })
+    };
+    async function asyncFn1() {
+        try {
+            const value = await promise();
+            //一系列异步操作函数
+            return value;
+        }catch (err) {
+            console.log(err);
+        }
+    }
+    asyncFn1().then((res) => {
+        console.log("res"+res);
+    }).catch(err => console.log(err));
+</script>
+</html>
