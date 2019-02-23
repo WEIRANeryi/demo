@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<ul class="list">
+
+</ul>
+<form action="" method="post" enctype="application/x-www-form-urlencoded"></form>
+</body>
+<script>
+    /*
+    * ajax首先是一个对象，构造器是XMLHttpRequest();
+    * 原生ajax一共分为四步
+    *   1.创建一个ajax对象 2.通过open方法指定请求方式，请求地址和是否异步
+    *   3.通过onreadystatechange来对服务器的相应过程进行监听 4。通过send方法来发送ajax请求
+    *
+    * */
+    let path = 'http://didi.yaojunrong.com/api/article/get';
+    //定义一个ajax对象
+    let xhr = new XMLHttpRequest();
+    //指定请求方式，请求地址和是否异步
+    //如果请求方式是post的话，还要多加一行来显式的定义 setRequestHeader()设置HTTP头信息。该方法必须在open()之后、send()之前调用。
+    xhr.open("GET",path,true);
+    // xhr.open("POST",path,true);
+    // xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    //监听ajax
+    xhr.onreadystatechange = function () {
+        //判断状态码来分辨ajax是否发送成功和返回成功
+        //readyState表示XMLHttpRequest请求当前所处的状态。从0到4一共有五种状态。
+        //status表示本次请求所得到的HTTP状态码，基本上，只有2xx和304的状态码，表示服务器返回是正常状态。
+        if (xhr.readyState == 4 && xhr.status == 200){
+            //如果成功返回数据的话，数据以json形式存放在xhr.response中
+            //通过JSON.parse方法来解析json字符串，转为对象
+            //之后在通过模板字符串和innerHTML将获取到的数据渲染到页面上去即可
+            let data = JSON.parse(xhr.response);
+            console.log(data);
+        }
+    };
+    //发送ajax请求
+    xhr.send();
+    /*
+    * ajax浏览器的兼容，一般的兼容浏览器采用的都是能力检测，ajax也不例外，首先判断window对象是否存在XMLHttprequest来判断是否是标准浏览器。
+    * 如果不是的话，就要用ie6中的ajax构造器来进行ajax的定义。
+   * */
+
+    // if (window.XMLHttpRequest){
+    //     //标准浏览器
+    //     var xhr = new XMLHttpRequest();
+    // } else{
+    //     //兼容ie5，6
+    //     var xhr = new ActiveXObject("Microsoft.XMLHTTP");
+    // }
+</script>
+</html>

@@ -11,13 +11,34 @@
     let obj1= {
         name : "王力宏",
         sex : "男人"
-    }
-
+    };
+    let obj2= {
+        name : "王力宏",
+        sex : "男人"
+    };
+    //精细化设置对象属性通过Object的一个defineProperty方法来控制，第一个参数是对象实例，第二个是属性名，以字符串形式。第三个则是一个对象，
+    // 对象内存放着精细化设置对象属性的具体属性。
+    //精细化设置对象属性一共有六条属性，但是由于get set和value writable不能同时存在，所以同一时间最多有四条属性。
+    //get是当获取这个属性值的时候触发，set则是在当修改这个属性值的时候触发。
+    //get函数是没有参数的，而set则有一个参数，用来接收新设置的属性值。
     Object.defineProperty(obj1,"sex",{
         configurable:false,//该属性是否可删除
         enumerable:false,//该属性是否可枚举
+        writaable : false,//该属性是否可修改
         value: "男人",
+    });
 
-    })
+    Object.defineProperty(obj2,"sex",{
+        configurable:false,//该属性是否可删除
+        enumerable:false,//该属性是否可枚举
+        get:function (){
+            //当获取值的时候触发的函数
+            return initValue;
+        },
+        set:function (value){
+            //当设置值的时候触发的函数,设置的新值通过参数value拿到
+            initValue = value;
+        }
+    });
 </script>
 </html>

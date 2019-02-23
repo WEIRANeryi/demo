@@ -1,0 +1,14 @@
+.list {
+    font-size: 12px;
+}
+.list .item {
+    padding: 10px 14px;
+}
+.item {
+    color: #b4b4b4;
+    border-bottom: 1px solid #f1f1f1;
+}
+.item h2 {
+    font-size: 16px;
+    color: #333;
+}
