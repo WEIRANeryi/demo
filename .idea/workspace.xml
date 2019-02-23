@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/内容溢出/内容溢出-单行文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-单行文本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/内容溢出/内容溢出-图片或者div框.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-图片或者div框.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/内容溢出/内容溢出-多行文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-多行文本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/html 文字两边加横线/html 文字两边加横线.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/html 文字两边加横线/文字中间两边横线.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/两边宽度固定中间自适应.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/双飞翼布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/四大布局/定位布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/四大布局/流动布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/四大布局/自然布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/四大布局/自适应布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/圣杯布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/垂直居中/01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/垂直居中/02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/左右定宽中间自适应.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/水平居中/inline-block.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/水平居中/margin 0 auto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/水平居中/浮动居中.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/布局Demo/盒模型.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/clear.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/clear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/float带来的影响.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/float带来的影响.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/overflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/overflow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/伪元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/伪元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/浮动的自述.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/浮动的自述.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/父元素赋高度.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/父元素赋高度.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/清除浮动/父级元素一起浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/清除浮动/父级元素一起浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/git.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/git.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="338">
+                <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +63,7 @@
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/set和map.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/精细化设置对象属性.html" />
+        <option value="$PROJECT_DIR$/git.md" />
       </list>
     </option>
   </component>
@@ -95,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,14 +174,16 @@
       <workItem from="1550718491382" duration="20241000" />
       <workItem from="1550795002799" duration="2599000" />
       <workItem from="1550892880761" duration="180000" />
+      <workItem from="1550900321012" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39562000" />
+    <option name="totallyTimeSpent" value="39583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13870542" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966975" />
@@ -382,11 +370,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/index.html" />
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/ajax初认识.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="338">
+            <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
