@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mongodb/mongodb指令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/cookie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,13 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mongodb/mongodb指令.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="463">
-                <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/cookie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -33,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,6 +68,7 @@
         <option value="$PROJECT_DIR$/Demo/Nodejs/express/03-路由实例上的路由.js" />
         <option value="$PROJECT_DIR$/Demo/Nodejs/express/02-Router实例上的路由.js" />
         <option value="$PROJECT_DIR$/Mongodb/mongodb指令.md" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/cookie.html" />
       </list>
     </option>
   </component>
@@ -88,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,17 +94,27 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -183,11 +192,12 @@
       <workItem from="1551057468389" duration="1923000" />
       <workItem from="1551173466838" duration="4337000" />
       <workItem from="1551226645488" duration="8303000" />
+      <workItem from="1551356530073" duration="2109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57528000" />
+    <option name="totallyTimeSpent" value="59637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -433,10 +443,17 @@
     <entry file="file://$PROJECT_DIR$/Mongodb/mongodb指令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="463">
-            <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+          <first_editor relative-caret-position="478">
+            <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>

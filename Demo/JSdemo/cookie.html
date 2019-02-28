@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">删除cookie</button>
+</body>
+<script>
+    /*
+    * 1.cookie是一些数据，用来存放客户端的客户信息，当用户访问页面时，他的一些信息可以被存放在cookie中，在下次访问的时候，可以在cookie中读取用户的信息。
+    * 2.cookie以名:值的形式存储。
+    * 3.js可以通过document.cookie属性来对cookie进行增删改查操作。
+    * 4.cookie还可以设置过期时间，只要为cookie加上一个expires属性即可。
+    * 5.删除cookie只要利用setCookie方法，将cookie的值设为null即可删除。
+    * */
+    let btn = document.getElementById("btn");
+    function setCookie (key,value,time) {
+        let date= new Date();
+        date.setSeconds(date.getSeconds() + time);
+        let str = date.toUTCString();
+        // console.log(str);
+        document.cookie = `${key}=${value}; expires = ${str}`
+    }
+    setCookie("like2","game",120);
+    console.log(document.cookie);
+
+    function getCookie() {
+        let str = document.cookie;
+        let obj = {};
+        // console.log(str);
+        let arr = str.split("; ");
+        // console.log(arr);
+        for (let i = 0;i<arr.length;i++){
+            let arr1 = arr[i].split("=");
+            obj[arr1[0]] = arr1[1];
+        }
+        console.log(obj);
+    }
+    getCookie();
+
+    function deleteCookie(key) {
+        setCookie(key,null,-1);
+    }
+    btn.onclick = deleteCookie("like");
+</script>
+</html>
