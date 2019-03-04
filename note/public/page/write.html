@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>写留言</title>
+    <link rel="stylesheet" href="/stylesheets/common.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/write.css">
+</head>
+<body>
+    <div class="header">
+        <div class="w1170 wrap">
+            <h1>云笔记</h1>
+            <button class="head-btn">写笔记</button>
+        </div>
+    </div>
+    <div class="content w1170">
+        <div class="w1170 write-container">
+            <div class="title-wrap">
+                <div class="title-label">标题</div>
+                <input type="text" id="title" placeholder="请输入笔记标题">
+            </div>
+            <div class="title-content">
+                <div class="title-label">内容</div>
+                <div class="editor" id="editor1"></div>
+                <div class="labels clear-f">
+                    <span class="labels-title fl">标签:</span>
+                    <div class="el-checkbox-group fl">
+                        <label class="check-btn clear-f">
+                            <input type="checkbox">
+                            <span>VueJs</span>
+                        </label>
+                        <label class="check-btn">
+                            <input type="checkbox">
+                            <span>VueJs</span>
+                        </label>
+                        <label class="check-btn">
+                            <input type="checkbox">
+                            <span>VueJs</span>
+                        </label>
+                        <label class="check-btn">
+                            <input type="checkbox">
+                            <span>VueJs</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="release" style="margin-top: 20px;">
+                    <span>发布笔记</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/wangeditor.js"></script>
+<script src="/js/axios.js"></script>
+<script src="/js/common.js"></script>
+<script>
+    var E = window.wangEditor;
+    var editor = new E('#editor1');
+    editor.create();
+    let title = document.querySelector("#title");
+    let btn = document.querySelector(".release");
+    btn.onclick = () => {
+        let time = new Date();
+        let year = time.getFullYear();
+        let month = time.getMonth();
+        let day = time.getDate();
+        axios.post("/publish",{
+            author: "作者",
+            title: title.value,
+            times: `${year}-${month+1}-${day}`,
+            content:editor.txt.html()
+        }).catch(err => {
+            console.log(err);
+        }).then(data => {
+            alert(data.data.msg);
+        });
+        window.location.href = "http://localhost:3000";
+    };
+</script>
+</html>

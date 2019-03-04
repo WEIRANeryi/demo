@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="/stylesheets/common.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/region.css">
+</head>
+<body>
+    <div class="header">
+        <div class="w1170 wrap">
+            <h1>云笔记</h1>
+            <button class="head-btn">写笔记</button>
+        </div>
+    </div>
+    <div class="w1170">
+        <div class="region">
+            <h2>新用户注册</h2>
+            <div class="item">
+                <input type="text" placeholder="用户名">
+            </div>
+            <div class="item">
+                <input type="text" placeholder="邮箱">
+            </div>
+            <div class="item">
+                <input type="password" placeholder="密码">
+            </div>
+            <div class="item">
+                <button class="btn1">注册</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/axios.js"></script>
+<script src="/js/common.js"></script>
+<script>
+    let btn = document.querySelector(".btn1");
+    let input = document.querySelectorAll("input");
+    btn.onclick = () => {
+        axios.post("/region",{
+            name: input[0].value,
+            email: input[1].value,
+            pwd: input[2].value
+        }).catch(err => {
+            console.log(err);
+        }).then(data => {
+            alert(data.data.msg)
+        });
+        window.location.href = "http://localhost:3000";
+    }
+</script>
+</html>

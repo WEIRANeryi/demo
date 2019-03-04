@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/stylesheets/common.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/content.css">
+</head>
+<body>
+    <div class="header">
+        <div class="w1170 wrap">
+            <h1>云笔记</h1>
+            <button class="head-btn">写笔记</button>
+        </div>
+    </div>
+    <div class="w1170 ">
+        <div class="content">
+
+        </div>
+    </div>
+</body>
+<script src="/js/axios.js"></script>
+<script src="/js/common.js"></script>
+<script>
+    let contentbox = document.querySelector(".content");
+    window.onload = function () {
+        let str1 = window.location.href;
+        let arr = str1.split("?");
+        axios.post("/content",{
+            _id: arr[1]
+        }).then(data => {
+            let datas = data.data.data;
+            let str = `
+                <h2>${datas.title}</h2>
+            <div class="content-msg">
+                <div class="content-top">
+                    <div class="author">
+                        作者:
+                        <span class="author-name">${datas.author}</span>
+                    </div>
+                    <div class="create-time">${datas.times}</div>
+                </div>
+                <div class="content-details">${datas.content}</div>
+            </div>
+            `;
+            contentbox.innerHTML = str;
+        })
+    }
+</script>
+</html>

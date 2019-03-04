@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>笔记本</title>
+    <link rel="stylesheet" href="/stylesheets/common.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="w1170 wrap">
+            <h1>云笔记</h1>
+            <button class="head-btn">写笔记</button>
+        </div>
+    </div>
+    <div class="w1170 ">
+        <div class="left-box">
+            <img src="../images/banner.jpg" alt="">
+            <div class="desc">十三亿人都会用的云笔记</div>
+        </div>
+        <div class="content">
+
+        </div>
+
+        <div class="bottom-box">
+
+        </div>
+    </div>
+</body>
+<script src="/js/axios.js"></script>
+<script src="/js/common.js"></script>
+<script>
+    let loginbtn = document.querySelector(".btn1");
+    let registerbtn = document.querySelector(".btn2");
+
+    let content = document.querySelector(".content");
+    let exitbtn = document.querySelector(".btn3");
+
+    window.onload = function () {
+        axios.get("/getnews").then(res => {
+            let data = res.data.data;
+            // console.log(data);
+            let str = "";
+            let box1 = document.querySelector(".bottom-box");
+            for (let i =0;i<data.length;i++){
+                let str1 = `<a href="http://localhost:3000/content?${data[i]._id}" class="item">
+                <div class="item-top clear-f">
+                    <div class="item-left">
+                        <img src="../images/avatar1.jpg" alt="">
+                    </div>
+                    <div class="item-right">
+                        <div class="item-right-one">
+                            <span class="author-name "id="${data[i]._id}">${data[i].author}</span>
+                            <h2>${data[i].title}</h2>
+                        </div>
+                        <div class="item-right-two">
+                            <span class="row-item">浏览: 5</span>
+                            <span class="row-item">回复: 0</span>
+                            <span class="row-item">分类: </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-content">
+
+                </div>
+            </a>`;
+                str += str1;
+            }
+            box1.innerHTML = str;
+        })
+    };
+    axios.get("/isLogin").then(res => {
+        let loginStatus = res.data.login;
+        let user = res.data.data;
+        if (!loginStatus){
+            let str = `<div class="right-box">
+                <div class="login-box">
+                    <div class="item">
+                        <input type="text" placeholder="账号">
+                    </div>
+                    <div class="item">
+                        <input type="password" placeholder="密码">
+                    </div>
+                    <div class="item">
+                        <button class="item-btn btn1" onclick="login()"><span>登陆</span></button>
+                    </div>
+                    <div class="item">
+                        <button class="item-btn btn2" onclick="register()"><span>注册</span></button></div>
+                </div>
+            </div>`;
+            content.innerHTML = str;
+        }else {
+            let str = `<div class="right-box2 right-box">
+                    <img src="../images/avatar1.jpg" alt="">
+                    <div class="name-item">
+                        <p>萌新：  ${user.name}</p>
+                    </div>
+                    <div class="email-item">
+                        <p>email:${user.email}</p>
+                    </div>
+                    <button class="item-btn btn3" onclick="exit()">退出登陆</button>
+                </div>`;
+            content.innerHTML = str;
+        }
+    })
+    function login(){
+        let input = document.querySelectorAll("input");
+        axios.post("/login",{
+            email: input[0].value,
+            pwd: input[1].value
+        }).then(res => {
+            alert(res.data.msg);
+            window.location.href = "http://localhost:3000";
+        })
+    }
+    function register(){
+        window.location.href = "http://localhost:3000/region";
+    }
+    function exit(){
+        axios.get("/exit").then(res => {
+            alert(res.data.msg);
+            window.location.href = "http://localhost:3000";
+        })
+    }
+</script>
+</html>

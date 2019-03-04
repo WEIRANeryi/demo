@@ -1,0 +1,53 @@
+.region{
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 714px;
+    margin: 100px auto 0;
+    border-radius: 6px;
+    background: #fff;
+}
+.region>h2{
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.region .item{
+    box-sizing: border-box;
+    width: 390px;
+    margin: 30px auto 0;
+}
+.item>input{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 14px;
+    outline: none;
+}
+.btn1{
+    width: 100%;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
