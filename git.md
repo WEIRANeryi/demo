@@ -8,6 +8,7 @@
 5. 初始化本地仓库
 6. 推送代码
 7. GitHub网站的使用
+8. 主要命令
 
 ####1.Git介绍
 Git是全球最大的社区交流网站，采用了先进的**分布式版本控制系统**。使得写代码的时候，可以随意回退以及前进到任意版本
@@ -50,4 +51,35 @@ setting则是项目相关设置，项目名字和删除项目等都可以在这�
  如果想要参与一个开源项目的开发，点击fork即可。就在自己账号下克隆了一个相关项目的仓库，然后在自己账号下down下相关代码。
  注意一定要在自己的账号下clone仓库，这样你才可以推送自己的修改。如果是从别人的地方直接clone，是没有修改权限的，无法进行修改的推送。
  当你觉得你修改的地方非常有意义，可以在GitHub上发起一个pull request，对方就可以查看你的推送请求，当然，同不同意另说。
- 
+  ####8. 主要命令
+  git status  查看git的状态
+  
+  git log  查看版本历史
+  
+  git chekout -- <file> 将操作回滚（工作区的修改放弃）
+  
+  git reset --hard commitID  回到某个版本
+  
+  git reset HEAD file  （将暂存区的文件移除）
+  
+  git init  初始化本地仓库
+  
+  查看分支：git branch
+  
+  创建分支：git branch <name>
+  
+  切换分支：git checkout <name>
+  
+  创建+切换分支：git checkout -b <name>
+  
+  合并某分支到当前分支：git merge <name>
+  
+  删除分支：git branch -d <name>
+  
+  从github上clone代码：git clone url
+  
+  将文件存入缓存区：git add 文件名 文件名 。。。。。。
+  
+  将文件提交：git commit -m 描述
+  
+  将文件推入远程仓库：git push 
