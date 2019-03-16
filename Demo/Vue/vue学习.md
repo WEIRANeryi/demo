@@ -3,6 +3,7 @@
 2. 生命周期函数
 3. 组件
 4. 路由
+5. Vuex
 
 ###1.指令
 
@@ -82,3 +83,38 @@ beforeDestory：  你确认删除XX吗？ 
 
 destoryed：       当前组件已被删除，清空相关内容
 ###3.组件
+1. 组件定义的两种常用方式
+    + 
+    ```
+    vue.component('component-name',{
+        data: function () {
+            return {}
+        }
+    })
+    ```
+    + 
+    ```angular2
+    <template id="com">
+        <h2>这是组件中的标题</h2>
+    </template>
+    
+    Vue.component('com',{
+         template: '#com'
+    })
+    ``` 
+2. 组件中的data
+    组件中data属性必须是一个方法，而且必须返回一个对象。这样才能使得每一个vue实例对象都可以维护一份返回对象的拷贝值，如果data不是这样设定的话，那么任意一个实例改变了data里存放的值，都可能影响到其他使用这个组件的实例对象.
+    ```angular2
+    Vue.component('com1',{
+        template: '<h1>这是组件1中的h1</h1>'
+        data: function () {
+            return {}
+        }
+    });
+    ```   
+3. 单一的根元素
+    组件的根元素必须有且仅有一个,如果有多个的话,会直接报错.
+4. 监听子组件事件
+
+###4.路由
+   
