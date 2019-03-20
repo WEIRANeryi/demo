@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <check-box v-model="arr" @inputs="getvalue"></check-box>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script src="./checkbox.js"></script>
+<script>
+    let app = new Vue({
+        components:{
+            "check-box" : checkbox
+        },
+        el: "#app",
+        data:{
+            arr: [],
+        },
+        methods: {
+            getvalue(value) {
+                this.arr = value;
+            }
+        }
+    })
+</script>
+</html>

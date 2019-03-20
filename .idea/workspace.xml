@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Demo/Vue/组件/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Vue/vue学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/vue学习.md" afterDir="false" />
     </list>
@@ -17,13 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/vue学习.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="559">
-                <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/checkbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -33,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,6 +91,9 @@
         <option value="$PROJECT_DIR$/Demo/CSSdemo/选择器/选择器的优先级计算.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/选择器/七种基础选择器.html" />
         <option value="$PROJECT_DIR$/Demo/Vue/vue学习.md" />
+        <option value="$PROJECT_DIR$/Demo/Vue/组件/111.html" />
+        <option value="$PROJECT_DIR$/Demo/Vue/组件/checkbox.js" />
+        <option value="$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html" />
       </list>
     </option>
   </component>
@@ -119,6 +130,13 @@
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="组件" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,21 +146,22 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/320" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\demo\Demo\Vue" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\demo\Demo\CSSdemo\选择器" />
       <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
       <recent name="E:\demo\Demo\JSdemo\cookie和session" />
       <recent name="E:\demo\Demo\CSSdemo" />
       <recent name="E:\demo\Demo\Nodejs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\demo\Demo\Vue\组件" />
+      <recent name="E:\demo\Demo\Vue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,17 +263,19 @@
       <workItem from="1552636518402" duration="288000" />
       <workItem from="1552719153171" duration="1754000" />
       <workItem from="1552734629162" duration="73000" />
+      <workItem from="1552867136505" duration="1707000" />
+      <workItem from="1552917471928" duration="230000" />
+      <workItem from="1553085752217" duration="5140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112895000" />
+    <option name="totallyTimeSpent" value="119972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.18560106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14729194" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,11 +317,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/async/await.html" />
-    <entry file="file://G:/day16 es6第二天/代码/12genarator.html" />
-    <entry file="file://G:/day16 es6第二天/代码/15class.html" />
-    <entry file="file://G:/day16 es6第二天/代码/18精细化设置对象的属性.html" />
-    <entry file="file://G:/day16 es6第二天/代码/20vue体验.html" />
     <entry file="file://G:/day16 es6第二天/代码/19proxy.html" />
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -353,11 +369,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongodb/mongodb指令.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="480">
@@ -366,9 +377,13 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongodb/mongoose.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
@@ -377,6 +392,7 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/Nodejs/express/03-路由实例上的路由.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,16 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="11911" column="4" selection-start-line="11911" selection-start-column="4" selection-end-line="11911" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vue.js" />
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/ajax初认识.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -618,10 +625,45 @@
     <entry file="file://$PROJECT_DIR$/Demo/Vue/vue学习.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="559">
-            <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+          <first_editor relative-caret-position="25">
+            <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/320/vue-day2/02子组件向父组件传值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="5" column="51" lean-forward="true" selection-end-line="107" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="44" column="50" lean-forward="true" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/dyCheckbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/checkbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
