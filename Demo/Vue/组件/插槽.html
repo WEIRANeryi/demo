@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <com-a>
+            <template slot="girl" slot-scope="a">{{a}}这是一个女人</template>
+            <template slot="boy">这是一个男人</template>
+        </com-a>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script>
+    /*
+    * 1.插槽的作用
+    * 2.插槽内可以放置什么内容？
+    * 3.默认插槽
+    * 4.具名插槽
+    * 5.作用域插槽
+    * */
+    /*
+    * 1.插槽的作用
+    *   定义了一个组件之后，如果想要在组件中添加一些内容，不使用插槽的话，输出内容还是组件中的内容，在组件中直接写入的内容并不会起到任何的作用、
+    *   当我们在组件中定义了<slot></slot>插槽之后，然后在组件内输入的内容就不会被忽略，可以显示在页面上
+    *   也就是说没有插槽的情况下在组件标签内些一些内容是不起任何作用的，当我在组件中声明了slot元素后，在组件元素内写的内容就会显示在组件中！
+    * 2.插槽内可以放置什么内容？
+    *   插槽内可以放置任何内容
+    * 3.默认插槽
+    *   如果我们不给这个插槽name属性，也就是说没有名字就会被认为是默认插槽。
+    *   相应的，组件中写入的内容如果不添加slot属性，就会被认为默认的添加到默认插槽中
+    * 4.具名插槽
+    *   和默认插槽相对应的，有name属性的插槽，就被称为具名插槽，在组件中，写入相对应的slot和对应好的name属性，就会把内容加到相应的插槽中去。
+    * 5.作用域插槽
+    *   就是说我们在插槽中定义的属性，可以在组件中使用
+    *   只要我们在组件定义的插槽中添加上属性，然后在使用组件时，在template上添加一个slot-scope属性，然后属性值就会被赋值为定义插槽时候的属性名和属性值键值对。然后就可以在内容中使用刚才slot-scope属性的属性值来进行渲染。
+    *
+    * */
+    var comA = {
+        template:`
+            <div>
+            <h4>这个世界不仅有男人和女人</h4>
+            <slot name="girl" age="18"></slot>
+            <div style="height:1px;background-color:red;"></div>
+            <slot name="boy"></slot>
+            <div style="height:1px;background-color:red;"></div>
+            <slot></slot>
+            </div>
+        `
+    }
+
+    let app = new Vue({
+        el: "#app",
+        components:{
+            "com-a" : comA
+        }
+    })
+</script>
+</html>

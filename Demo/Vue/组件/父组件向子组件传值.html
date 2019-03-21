@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <dy-button type="primary"></dy-button>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script>
+    /*
+    * 父组件向子组件传值
+    * 1. 在子组件内部定义一个props属性
+    *   props: {
+    *       "传入的键值对的属性名字"："传入进来的属性名类型声明，比如String"
+    *   }
+    * 2. 父组件通过在组件的标签的属性传值 例如: <button type="primary"></button>那么这个type="primary"就是传入的键值对
+    * */
+    var dyButton = {
+        props: {
+          type: String
+        },
+        template: `
+        <button class="btn" :class="{primary: this.type == 'primary'}">我是按钮{{type}}</button>
+        `,
+        created () {
+            console.log("父组件传进来的值",this.type)
+        }
+    };
+
+    var app = new Vue({
+        el: "#app",
+        data: {
+            msg: ""
+        },
+        components : {
+            "dy-button" : dyButton
+        }
+    })
+</script>
+</html>

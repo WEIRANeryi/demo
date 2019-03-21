@@ -12,6 +12,13 @@
 <script src="../vue.js"></script>
 <script src="./checkbox.js"></script>
 <script>
+    /*
+    * 子组件向父组件传值只需要：
+    * 1.子组件内的值发生了改变
+    * 2.然后触发一个$emit("自定义事件名称"，自定义事件要传出的值)
+    * 3.父组件使用这个自定义事件然后将值存储起来即可实现子组件向父组件传值
+    *注意：如果自定义事件名称设为input，则会发生语法糖，可以自动的将值存储起来，则不用在父组件这边进行数据的存储。
+    * */
     let app = new Vue({
         components:{
             "check-box" : checkbox
