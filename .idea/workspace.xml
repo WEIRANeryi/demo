@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/Vue/组件/插槽.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Vue/组件/父组件向子组件传值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Vue/生命周期函数/生命周期函数.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,56 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/子组件向父组件传值.html">
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/生命周期函数/生命周期函数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/插槽.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/vue学习.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="430">
-                <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/父组件向子组件传值.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="331">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/checkbox.js">
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/vue初认识.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
+            <state relative-caret-position="-419" />
           </provider>
         </entry>
       </file>
@@ -175,22 +137,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\demo\Demo\Vue\组件" />
-      <recent name="E:\demo\Demo\Vue" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\demo\Demo\CSSdemo\选择器" />
       <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
       <recent name="E:\demo\Demo\JSdemo\cookie和session" />
       <recent name="E:\demo\Demo\CSSdemo" />
       <recent name="E:\demo\Demo\Nodejs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\demo\Demo\Vue" />
+      <recent name="E:\demo\Demo\Vue\生命周期函数" />
+      <recent name="E:\demo\Demo\Vue\组件" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,16 +258,16 @@
       <workItem from="1552867136505" duration="1707000" />
       <workItem from="1552917471928" duration="230000" />
       <workItem from="1553085752217" duration="5140000" />
-      <workItem from="1553130636050" duration="7791000" />
+      <workItem from="1553130636050" duration="8992000" />
+      <workItem from="1553170146403" duration="647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127763000" />
+    <option name="totallyTimeSpent" value="129611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14729194" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966975" />
@@ -348,20 +311,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/promise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="1357" column="14" selection-start-line="1357" selection-start-column="14" selection-end-line="1357" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/class继承.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -694,6 +643,18 @@
         <state relative-caret-position="300">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/生命周期函数/生命周期函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue初认识.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419" />
       </provider>
     </entry>
   </component>

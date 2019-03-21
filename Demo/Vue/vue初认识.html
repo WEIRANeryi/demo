@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        {{message1}}
+    </div>
+    <div class="box">
+        {{message2}}
+    </div>
+</body>
+<script src="./vue.js"></script>
+<script>
+    /*
+    * 1.使用Vue构造函数创建一个vue对象，传入的参数是一个对象，
+    * el类似选择器，用来选中页面中的DOM元素，用来指定该vue对象将来挂载的位置
+    * data中存放数据。
+    * methods中存放方法
+    *
+    *
+    * */
+    var app1 = new Vue({
+        el: "#app",
+        data: {
+            message1: "hello vue"
+        }
+    });
+    let app2 = new Vue({
+        el: ".box",
+        data: {
+            message2: "初次见面 请多关照"
+        }
+    });
+</script>
+</html>

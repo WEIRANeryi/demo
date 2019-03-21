@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <com-a v-if="isShow"></com-a>
+    <button @click="isShow=!isShow">toggle</button>
+</div>
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    var comA = {
+        template: `
+            <h1 id="title">{{msg}}</h1>
+        `,
+        data() {
+            return {
+                msg: "我是标题"
+            }
+        },
+        mounted() {
+            console.log(this.msg, document.querySelector("#title"), "mounted")
+            window._resize = function () {
+                console.log(document.body.clientWidth||document.documentElement.clientWidth)}
+
+            window.addEventListener("resize", window._resize)
+        },
+        beforeCreate() {
+            console.log(this.msg, "beforeCreated 实例化之前")
+        },
+        created() {
+            console.log(this.msg, "created")
+        },
+        beforeMount() {
+            console.log(document.querySelector("#title"), "beforeMount");
+            console.log(this.msg, "mount");
+        },
+        beforeDestroy() {
+            window.removeEventListener("resize", window._resize)
+        },
+        destroyed() { // 组件移除后的钩子
+            console.log("组件被移除了")
+        }
+    }
+
+    new Vue({
+        components: {
+            "com-a": comA
+        },
+        el: "#app",
+        data: {
+            msg: "<h1>我是字符串</h1>",
+            isShow: true
+        },
+
+    })
+</script>
+</html>
