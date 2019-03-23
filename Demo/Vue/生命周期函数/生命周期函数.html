@@ -10,7 +10,7 @@
     <button @click="isShow=!isShow">toggle</button>
 </div>
 </body>
-<script src="node_modules/vue/dist/vue.js"></script>
+<script src="../vue.js"></script>
 <script>
     var comA = {
         template: `
@@ -32,11 +32,10 @@
             console.log(this.msg, "beforeCreated 实例化之前")
         },
         created() {
-            console.log(this.msg, "created")
+            console.log(this.msg,"created")
         },
         beforeMount() {
             console.log(document.querySelector("#title"), "beforeMount");
-            console.log(this.msg, "mount");
         },
         beforeDestroy() {
             window.removeEventListener("resize", window._resize)
@@ -54,8 +53,7 @@
         data: {
             msg: "<h1>我是字符串</h1>",
             isShow: true
-        },
-
+        }
     })
 </script>
 </html>
