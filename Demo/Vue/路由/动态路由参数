@@ -1,0 +1,13 @@
+动态路径参数 以冒号开头，然后当匹配到一个路由时，参数值会被设置到 this.$route.params。
+```angular2
+export default new Router({
+  routes: [
+    {
+      path: '/page2/:id',
+      component: function () {
+        return import('@/components/page2')
+      }
+    }
+  ]
+})
+```

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/webpack/webpack引入vue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/webpack/引入router.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/webpack/快捷方式.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/webpack/热更新.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/webpack/初始化.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/webpack/初始化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/webpack/管理资源.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/webpack/管理资源.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,84 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/初始化.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/管理资源.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="67" selection-start-column="67" selection-end-column="67" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/plugin.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/热更新.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/webpack引入vue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="500">
-                <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/引入router.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-70">
-                <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/webpack/快捷方式.md">
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <first_editor relative-caret-position="50">
+                <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -121,9 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/数组去重/利用对象的不重复性判断每个数字出现的次数.js" />
-        <option value="$PROJECT_DIR$/Demo/vim使用命令大全.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/逻辑与和逻辑或的短路性.js" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" />
         <option value="$PROJECT_DIR$/Demo/将列表倒序.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html" />
@@ -172,6 +92,9 @@
         <option value="$PROJECT_DIR$/Demo/webpack/webpack引入vue.md" />
         <option value="$PROJECT_DIR$/Demo/webpack/引入router.md" />
         <option value="$PROJECT_DIR$/Demo/webpack/快捷方式.md" />
+        <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md" />
+        <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/异步加载路由组件" />
+        <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数" />
       </list>
     </option>
   </component>
@@ -206,7 +129,7 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,18 +146,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\demo\Demo\Vue\路由" />
+      <recent name="E:\demo\Demo\CSSdemo\选择器" />
+      <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
+      <recent name="E:\demo\Demo\JSdemo\cookie和session" />
+      <recent name="E:\demo\Demo\CSSdemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\demo\Demo\webpack" />
       <recent name="E:\demo\Demo\Vue" />
       <recent name="E:\demo\Demo\Vue\生命周期函数" />
       <recent name="E:\demo\Demo\Vue\组件" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\demo\Demo\CSSdemo\选择器" />
-      <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
-      <recent name="E:\demo\Demo\JSdemo\cookie和session" />
-      <recent name="E:\demo\Demo\CSSdemo" />
-      <recent name="E:\demo\Demo\Nodejs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,15 +274,17 @@
       <workItem from="1553387707533" duration="1950000" />
       <workItem from="1553391881378" duration="1128000" />
       <workItem from="1553396975886" duration="1156000" />
+      <workItem from="1553408564911" duration="37000" />
+      <workItem from="1553408607064" duration="1458000" />
+      <workItem from="1553414404283" duration="1427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136063000" />
+    <option name="totallyTimeSpent" value="138985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14729194" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966975" />
@@ -403,33 +328,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/Nodejs/express/02-Router实例上的路由.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/跨域/跨域的概念以及三种解决方法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4475">
-            <caret line="169" column="58" selection-start-line="169" selection-start-column="58" selection-end-line="169" selection-end-column="58" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/HTTP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/cookie和session/session.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -754,7 +652,7 @@
     <entry file="file://$PROJECT_DIR$/Demo/webpack/引入router.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-70">
+          <first_editor relative-caret-position="25">
             <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
           </first_editor>
           <second_editor />
@@ -766,6 +664,36 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="275">
             <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/异步加载路由组件">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

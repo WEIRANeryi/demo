@@ -1,0 +1,25 @@
+vue是一个单页面应用，支持按需引入，而不是在首页就将所有的组件都下载完毕，而是在需要的时候才下载相应的组件然后渲染到页面上去。
+而这就叫做异步加载路由组件，异步加载路由组件的语法就是在路由router上需要配置组件的时候才引入这个组件。
+```angular2
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path: '/page1',
+      component: function () {
+        return import('@/components/page1')
+      }
+    },
+    {
+      path: '/page2',
+      component: function () {
+        return import('@/components/page2')
+      }
+    }
+  ]
+})
+```
