@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架">
+        <entry file="file://$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="50">
-                <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <first_editor relative-caret-position="255">
+                <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -44,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/js数组方法.js" />
         <option value="$PROJECT_DIR$/Demo/将列表倒序.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html" />
@@ -95,6 +95,7 @@
         <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md" />
         <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/异步加载路由组件" />
         <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数" />
+        <option value="$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md" />
       </list>
     </option>
   </component>
@@ -277,14 +278,17 @@
       <workItem from="1553408564911" duration="37000" />
       <workItem from="1553408607064" duration="1458000" />
       <workItem from="1553414404283" duration="1427000" />
+      <workItem from="1553425519926" duration="1840000" />
+      <workItem from="1553427595604" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138985000" />
+    <option name="totallyTimeSpent" value="141125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14729194" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.24966975" />
@@ -328,16 +332,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/cookie和session/session.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/cookie和session/cookie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -669,31 +663,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="250">
-            <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数" />
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/异步加载路由组件" />
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/异步加载路由组件">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="50">
             <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
