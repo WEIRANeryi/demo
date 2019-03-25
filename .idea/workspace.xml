@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/Vue/组件/组件知识.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/flex布局骰子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/跨域/跨域的概念以及三种解决方法.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +17,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/flex布局骰子.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2081">
+              <caret line="124" column="7" lean-forward="true" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="28" column="136" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/Vue/组件/组件知识.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
-                <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -45,10 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/对象解构和数组的解构.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.from.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/Array.of.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/for of遍历数组.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/generator.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/async/await.html" />
@@ -96,10 +115,14 @@
         <option value="$PROJECT_DIR$/Demo/Vue/vue脚手架/动态路由参数" />
         <option value="$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md" />
         <option value="$PROJECT_DIR$/Demo/Vue/组件/组件知识.md" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/骰子.html" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/flex布局骰子.html" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="35" />
     <option name="y" value="-15" />
     <option name="width" value="1750" />
@@ -130,14 +153,14 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="CSSdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-              <item name="组件" type="462c0819:PsiDirectoryNode" />
+              <item name="CSSdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="fiex布局" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,24 +171,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FE-Learnling_Book" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\demo\Demo\CSSdemo\fiex布局" />
+      <recent name="E:\demo\Demo\JSdemo\Ajax" />
+      <recent name="E:\demo\Demo\Vue\路由" />
+      <recent name="E:\demo\Demo\CSSdemo\选择器" />
+      <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\demo\Demo\webpack" />
       <recent name="E:\demo\Demo\Vue" />
       <recent name="E:\demo\Demo\Vue\生命周期函数" />
       <recent name="E:\demo\Demo\Vue\组件" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\demo\Demo\JSdemo\Ajax" />
-      <recent name="E:\demo\Demo\Vue\路由" />
-      <recent name="E:\demo\Demo\CSSdemo\选择器" />
-      <recent name="E:\demo\Demo\CSSdemo\七种基础选择器" />
-      <recent name="E:\demo\Demo\JSdemo\cookie和session" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,12 +310,13 @@
       <workItem from="1553414404283" duration="1427000" />
       <workItem from="1553425519926" duration="1840000" />
       <workItem from="1553427595604" duration="300000" />
-      <workItem from="1553474925591" duration="1313000" />
+      <workItem from="1553474925591" duration="1922000" />
+      <workItem from="1553513103957" duration="4095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142438000" />
+    <option name="totallyTimeSpent" value="147142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -340,26 +364,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/note/database/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -698,6 +702,34 @@
             <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/flex布局骰子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2081">
+          <caret line="124" column="7" lean-forward="true" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="28" column="136" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
         </state>
       </provider>
     </entry>
