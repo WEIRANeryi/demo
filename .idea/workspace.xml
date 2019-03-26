@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/两边宽度固定中间自适应.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/两边宽度固定中间自适应.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/双飞翼布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/双飞翼布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/左右定宽中间自适应.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/盒模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/布局Demo/盒模型.html" afterDir="false" />
-    </list>
+    <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,13 +22,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/布局Demo/盒模型.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="15" column="78" lean-forward="true" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/清除浮动/clear.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,7 +144,7 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="CSSdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="布局Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="清除浮动" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,12 +297,12 @@
       <workItem from="1553474925591" duration="1922000" />
       <workItem from="1553513103957" duration="4095000" />
       <workItem from="1553580826752" duration="546000" />
-      <workItem from="1553598646203" duration="1591000" />
+      <workItem from="1553598646203" duration="2840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149279000" />
+    <option name="totallyTimeSpent" value="150528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -352,13 +350,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/generator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/ES6/箭头函数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -713,10 +704,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/布局Demo/盒模型.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="15" column="78" lean-forward="true" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/清除浮动/clear.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
