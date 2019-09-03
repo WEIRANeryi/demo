@@ -16,9 +16,7 @@ export default new Router({
     },
     {
       path: '/page2',
-      component: function () {
-        return import('@/components/page2')
-      }
+      component:() => import('@/components/page2')
     }
   ]
 })
