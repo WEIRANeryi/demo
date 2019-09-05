@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>使用js自定义事件</title>
+</head>
+<body>
+<style>
+    #whirlyThing {display: none;}
+</style>
+<button id="clickMe" type="button">Start</button>
+<img id="whirlyThing" src="http://pic13.nipic.com/20110409/7119492_114440620000_2.jpg" />
+<!--<script>-->
+<!--    document.addEventListener("ajax-start", e=>{-->
+<!--        console.log("ajax-start");-->
+<!--        document.getElementById("whirlyThing").style.display = "inline-block";-->
+<!--    })-->
+
+<!--    document.addEventListener("ajax-complete", e=>{-->
+<!--        console.log("ajax-complete");-->
+<!--        document.getElementById("whirlyThing").style.display = "none";-->
+<!--    })-->
+
+<!--    // 自定义事件-->
+<!--    function triggerEvent(target, eventType, eventDetail){-->
+<!--        const event = new CustomEvent(eventType, {-->
+<!--            detail: eventDetail,-->
+<!--        });-->
+<!--        target.dispatchEvent(event);  // 自定义事件的触发-->
+<!--    }-->
+
+<!--    function performAjaxOperation(){-->
+<!--        triggerEvent(document, "ajax-start", {url: "http://www.jxufe.edu.cn"});-->
+<!--        setTimeout(()=>{-->
+<!--            triggerEvent(document, "ajax-complete");-->
+<!--        }, 5000);-->
+<!--    }-->
+
+<!--    const button = document.getElementById("clickMe");-->
+<!--    button.addEventListener("click", ()=>{-->
+<!--        performAjaxOperation();-->
+<!--    })-->
+<!--</script>-->
+<script>
+    let myEvent = new CustomEvent('onClick',{
+        detail: {
+            name: '我是自定义事件'
+        }
+    })
+    window.addEventListener('onClick',function (event) {
+        console.log('得到数据为：', event.detail.name);
+    })
+    const button = document.getElementById("clickMe")
+    button.addEventListener('click',function (event) {
+        console.log('触发了这个自定义事件')
+    })
+</script>
+</body>
+</html>

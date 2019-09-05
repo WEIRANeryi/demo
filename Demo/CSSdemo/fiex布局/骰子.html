@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            display: flex;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #7A7A7A;
+        }
+        .wrap {
+            display: flex;
+            width: 350px;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #7A7A7A;
+            border-radius: 50%;
+            background-color: red;
+        }
+        .one {
+            justify-content: center;
+            align-items: center;
+        }
+        .two {
+            align-items: center;
+            justify-content: space-around;
+        }
+        .three {
+            flex-wrap: wrap;
+        }
+        .three .fir {
+            justify-content: flex-end;
+        }
+        .three .sec {
+            justify-content: center;
+        }
+        .four {
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        .four .fir {
+            justify-content: space-around;
+        }
+        .four .sec {
+            justify-content: space-around;
+        }
+        .five {
+            flex-wrap: wrap;
+        }
+        .five .fir {
+            justify-content: space-around;
+        }
+        .five .sec {
+            justify-content: center;
+        }
+        .five .thi {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="box one">
+        <div class="item"></div>
+    </div>
+    <div class="box two">
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="box three">
+        <div class="wrap fir">
+            <div class="item"></div>
+        </div>
+        <div class="wrap sec">
+            <div class="item"></div>
+        </div>
+        <div class="wrap thi">
+            <div class="item"></div>
+        </div>
+    </div>
+    <div class="box four">
+        <div class="wrap fir">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="wrap sec">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <div class="box five">
+        <div class="wrap fir">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="wrap sec">
+            <div class="item"></div>
+        </div>
+        <div class="wrap thi">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+</body>
+</html>

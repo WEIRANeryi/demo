@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/call和apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/骰子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/自定义事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/=和==和===的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/=和==和===的区别.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/Ajax/跨域/跨域的概念以及三种解决方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/Ajax/跨域/跨域的概念以及三种解决方法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/JSdemo/JS中的数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/JSdemo/JS中的数据类型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/vuex/安装与使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Vue/路由/异步加载路由组件" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/路由/异步加载路由组件" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,26 +20,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/ajax初认识.html">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/flex布局骰子.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="52" column="86" lean-forward="true" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+            <state relative-caret-position="250">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/跨域/跨域的概念以及三种解决方法.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="25">
-                <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-                <folding>
-                  <element signature="n#!!doc" expanded="true" />
-                  <element signature="n#!!doc" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Demo/JSdemo/自定义事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,10 +69,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,11 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Demo/Nodejs/express/初步认识express.js" />
-        <option value="$USER_HOME$/Desktop/vue.js" />
-        <option value="$PROJECT_DIR$/git.md" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/ES6/async await.html" />
-        <option value="$PROJECT_DIR$/Demo/JSdemo/数组方法/数组去重/数组去重.js" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/选择器.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/选择器/选择器的优先级计算.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/选择器/七种基础选择器.html" />
@@ -91,7 +109,6 @@
         <option value="$PROJECT_DIR$/Demo/Vue/组件/组件知识.md" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/骰子.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/flex布局骰子.html" />
-        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/移动端适配/基础知识.md" />
         <option value="$PROJECT_DIR$/Demo/CSSdemo/移动端适配/移动端适配.md" />
@@ -113,10 +130,16 @@
         <option value="$PROJECT_DIR$/Demo/JSdemo/JS中的数据类型.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/变量的提升.html" />
         <option value="$PROJECT_DIR$/Demo/JSdemo/Ajax/跨域/跨域的概念以及三种解决方法.md" />
+        <option value="$USER_HOME$/Documents/Tencent Files/741758994/FileRecv/sendGift(2).vue" />
+        <option value="$USER_HOME$/Documents/Tencent Files/741758994/FileRecv/sendGift(1).vue" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/test.html" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html" />
+        <option value="$PROJECT_DIR$/Demo/CSSdemo/fiex布局/骰子.html" />
+        <option value="$PROJECT_DIR$/Demo/JSdemo/自定义事件.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -130,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,27 +174,13 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="JSdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="跨域" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="Mongodb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,14 +363,15 @@
       <workItem from="1555895167318" duration="637000" />
       <workItem from="1556002087485" duration="965000" />
       <workItem from="1567475716629" duration="9517000" />
+      <workItem from="1567646613509" duration="17267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180193000" />
+    <option name="totallyTimeSpent" value="197460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.1688988" />
@@ -377,7 +386,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,54 +416,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/布局Demo/垂直居中/02.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/line-height详解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/清除浮动/clear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/清除浮动/伪元素.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-单行文本.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-图片或者div框.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/内容溢出/内容溢出-多行文本.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/布局Demo/四大布局/定位布局.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -609,17 +570,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="50">
             <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -725,22 +686,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/ajax初认识.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="52" column="86" lean-forward="true" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+        <state relative-caret-position="1300">
+          <caret line="52" column="86" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/JSdemo/Ajax/跨域/跨域的概念以及三种解决方法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="25">
-            <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <first_editor relative-caret-position="425">
+            <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             <folding>
               <element signature="n#!!doc" expanded="true" />
               <element signature="n#!!doc" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/741758994/FileRecv/sendGift(2).vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/741758994/FileRecv/sendGift(1).vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/骰子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/flex布局骰子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/容器上的属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/项目上的属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/fiex布局/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/JSdemo/自定义事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
         </state>
       </provider>
     </entry>

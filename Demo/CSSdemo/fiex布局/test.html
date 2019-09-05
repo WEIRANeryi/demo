@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1 {
+            display: flex;
+            /*width: 100%;*/
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1 .son1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .box1 .son2 {
+            width: 200px;
+            height: 300px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<!--1.flex-direction-->
+    <div class="box1">
+        <div class="son1">
+
+        </div>
+        <div class="son2">
+
+        </div>
+    </div>
+</body>
+<script>
+    console.log(['01', '111', '101', '212'].map(parseInt));
+    /*
+    * parseInt('01',0) => 1
+    * parseInt('111',1) => NAN
+    * parseInt('101',2) => 5
+    * parseInt('212',3) => 23
+    *
+    * */
+</script>
+</html>
