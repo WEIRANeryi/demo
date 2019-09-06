@@ -42,18 +42,18 @@
 <!--    })-->
 <!--</script>-->
 <script>
-    let myEvent = new CustomEvent('onClick',{
-        detail: {
-            name: '我是自定义事件'
-        }
+    document.body.addEventListener("veb",function(e){
+        alert(e.eventType)
     })
-    window.addEventListener('onClick',function (event) {
-        console.log('得到数据为：', event.detail.name);
-    })
-    const button = document.getElementById("clickMe")
-    button.addEventListener('click',function (event) {
-        console.log('触发了这个自定义事件')
-    })
+    var event = document.createEvent('HTMLEvents');
+    // initEvent接受3个参数：
+    // 事件类型，是否冒泡，是否阻止浏览器的默认行为
+    event.initEvent("veb", false, true);
+    //通过eventType传递事件信息
+    event.eventType="I love Veblen"
+    //触发document上绑定的click事件
+    document.body.dispatchEvent(event);
+
 </script>
 </body>
 </html>
