@@ -15,7 +15,7 @@ v-model
 
     v-model在表单控件或者组件上创建双向绑定，进行数据的双向绑定。
 
-v-for v-show v-else
+v-if v-show v-else
 
     v-else必须跟在另两个之后，否则不能被识别
     v-if和v-show的区别就是v-show的元素会始终存在与DOM中，只是切换了元素的display属性，使得元素显示与隐藏.
@@ -117,4 +117,3 @@ destoryed：       当前组件已被删除，清空相关内容
 4. 监听子组件事件
 
 ###4.路由
-   

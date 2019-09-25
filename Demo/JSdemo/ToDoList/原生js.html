@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 1px solid #000;
+        }
+        .top {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #409eff;
+        }
+        .item {
+            margin-top: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #409eff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top" id="top" >
+            <input type="text" id="top-item" placeholder="要做什么呢?">
+        </div>
+        <div class="content" id="content">
+            <!--<div class="item" id="item">-->
+                <!--<input type="radio" class="item-radio">-->
+                <!--<input type="text" class="item-input">-->
+            <!--</div>-->
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    let tops = document.getElementById('top-item');
+    var id = 1;
+    function setItem(id,value) {
+        let item = document.createElement('div');
+        let radio = document.createElement('input');
+        let input = document.createElement('input');
+
+        item.setAttribute('id',id);
+        item.setAttribute('class','item')
+        radio.setAttribute('type','radio');
+        radio.setAttribute('class','item-radio');
+
+        input.setAttribute('type','text');
+        input.setAttribute('class','item-input');
+        input.setAttribute('value',value);
+
+        item.appendChild(radio);
+        item.appendChild(input);
+
+        document.getElementById('content').appendChild(item);
+
+    }
+
+    tops.onblur = function () {
+        let value = this.value;
+        console.log(value);
+        setItem(id,value);
+        id++;
+    }
+</script>
+</html>
