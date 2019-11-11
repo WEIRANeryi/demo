@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfee9a95-742f-406f-96ff-acf132566ec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/ToDoList/原生js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/JSdemo/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/React/七个API/createElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/日志/日志" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/CSSdemo/块级元素和行级元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/CSSdemo/块级元素和行级元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Vue/vue学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Vue/vue学习.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日志/日志" beforeDir="false" afterPath="$PROJECT_DIR$/日志/日志" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/日志/日志">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="599">
-                <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+              <first_editor relative-caret-position="543">
+                <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -114,10 +108,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,7 +318,10 @@
       <workItem from="1555648891660" duration="3600000" />
       <workItem from="1555895167318" duration="637000" />
       <workItem from="1556002087485" duration="965000" />
-      <workItem from="1569416862409" duration="458000" />
+      <workItem from="1569416862409" duration="640000" />
+      <workItem from="1569505441878" duration="695000" />
+      <workItem from="1572508076640" duration="6000" />
+      <workItem from="1573136524830" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="日志提交">
       <created>1569333375940</created>
@@ -333,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569333375940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2019/9/25日志提交">
+      <created>1569417414513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569417414513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171199000" />
+    <option name="totallyTimeSpent" value="172199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -386,7 +390,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="日志提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="日志提交" />
+    <MESSAGE value="2019/9/25日志提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/9/25日志提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Demo/CSSdemo/text-indent的一点小bug.html">
@@ -527,17 +532,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/Vue/vue脚手架/安装脚手架.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="50">
             <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -724,8 +729,8 @@
     <entry file="file://$PROJECT_DIR$/日志/日志">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="599">
-            <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <first_editor relative-caret-position="543">
+            <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
           </first_editor>
           <second_editor />
         </state>
